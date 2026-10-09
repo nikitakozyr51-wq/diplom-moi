@@ -77,10 +77,12 @@ subprocess.run(["pandoc", str(BUILD / "plan-export.md"),
 doc = Document(OUTPUT)
 # Match the 12 pt / single-spaced table requirement after conversion.
 for table in doc.tables:
+    table.style = 'Table Grid'
     table.autofit = True
     for row in table.rows:
         for cell in row.cells:
             for paragraph in cell.paragraphs:
+                paragraph.style = doc.styles['Normal']
                 pf = paragraph.paragraph_format
                 pf.line_spacing = 1
                 pf.first_line_indent = Cm(0)
@@ -93,6 +95,8 @@ for table in doc.tables:
                     run.font.color.rgb = RGBColor(0, 0, 0)
     # Repeat header rows when Word paginates a table.
     properties = table.rows[0]._tr.get_or_add_trPr()
+    for old in list(properties.findall(qn('w:tblHeader'))):
+        properties.remove(old)
     repeat = OxmlElement("w:tblHeader")
     repeat.set(qn("w:val"), "true")
     properties.append(repeat)

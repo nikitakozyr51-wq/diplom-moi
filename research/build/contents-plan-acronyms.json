@@ -1,0 +1,49 @@
+{
+  "checker": "ars-acronym-check/1.0",
+  "input": "research/contents-plan.md",
+  "input_sha256": "48cc7f2745ba944a4df039dfc9ce5cecc81b1ec9e51d63615af39050e8c81463",
+  "status": "partial",
+  "allowlist": {
+    "default": 29,
+    "user": []
+  },
+  "coverage": {
+    "body": "checked",
+    "abstract_en": "not_in_input",
+    "abstract_zh": "not_in_input"
+  },
+  "scope_lines": {
+    "body": [
+      [
+        2,
+        12
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        26,
+        34
+      ],
+      [
+        36,
+        44
+      ],
+      [
+        46,
+        59
+      ]
+    ]
+  },
+  "unread_sections": [],
+  "coverage_limits": [
+    {
+      "scope": "body",
+      "line": 3,
+      "acronym": "MASS",
+      "reason": "unconfirmed_definition"
+    }
+  ],
+  "findings": []
+}

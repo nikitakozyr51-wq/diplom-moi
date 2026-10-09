@@ -23,8 +23,8 @@
   "artifact_hashes": {
     "drafts/working-draft.md": "a88e00ef474e8e2060c4f47a0449ff91632179d0fb4e54595910450e892e0e88",
     "drafts/working-draft.docx": "864f3b3eba901938922f9beef202cb25e428feee12b879e6ae86e9f3938ecbe4",
-    "plan.md": "3f29acffa4c36848f99191b92ff4112368b7dc895d0e40eb01ddb6c3df77a396",
-    "plan.docx": "f342208f71922f0497274c3656c3aa8d1e3dd8bc4e1fe8a16a7eee860ae85c94"
+    "plan.md": "9cf833d280b6061dc98693c766eb27628d868414866b1252139f1fbfd3ef4e9d",
+    "plan.docx": "3321eaeaf3624956b7891db60c27eadb38bfe98179e6de69bb88ef5f531dadc7"
   },
   "checked": "Word container and basic structural formatting; current subsection and citation correspondence; source identities, local source hashes and new course excerpt anchors when available",
   "not_checked": [
