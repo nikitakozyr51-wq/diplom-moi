@@ -1,0 +1,21 @@
+# Local tools and their caches are retained by the cloud environment.
+.agents/
+.codex/
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+.env
+.env.*
+
+# University and course originals remain local; publish notes and provenance.
+research/requirements/originals/
+research/requirements/extracted/
+research/literature/course/originals/
+research/literature/course/extracted/
+research/literature/raw/
+
+# Export intermediates; final Word files and validation reports are retained.
+research/build/*-word.md
+research/build/plan-export.md
