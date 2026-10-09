@@ -127,7 +127,7 @@ require(actual_headings == expected_headings, 'Word and Markdown subsection head
 for heading in actual_headings:
     require(not heading.endswith('.'), 'Terminal dot in heading: ' + heading)
 chapter_headings = [p for p in doc.paragraphs if p.style.name == 'Heading 1']
-require(chapter_headings[0].paragraph_format.page_break_before is False, 'Initial chapter starts with forced break')
+require(all(p.paragraph_format.page_break_before is True for p in chapter_headings), 'Chapter must start on a new page')
 for paragraph in chapter_headings:
     require(paragraph.text == paragraph.text.upper(), 'Chapter heading is not uppercase')
 for ref in references:
@@ -165,8 +165,25 @@ for candidate in [docx_path, ROOT / 'plan.docx', ROOT / 'drafts/chapter-1.docx']
                         require(run.font.name == 'Times New Roman' and near(run.font.size, Pt(12)), candidate.name + ': table font')
 
 for table in doc.tables:
+    require(table.style.name == 'Table Grid', 'Table style must resolve to the defined grid style')
     require(bool(table.rows[0]._tr.xpath('./w:trPr/w:tblHeader')), 'Missing repeated table header')
     require(abs(sum(c.width for c in table.columns) - Cm(16.5)) < 2000, 'Table exceeds body width')
+
+# A partial thesis still starts with its official cover and written preliminaries.
+require(len(doc.inline_shapes) == 1, 'Official cover emblem is missing')
+require('Козырева Никиты Алексеевича, группа S-612' in word_text, 'Student cover details are missing')
+require('26.05.05 Судовождение' in word_text, 'Specialty is missing')
+require(any(p.text == 'СОДЕРЖАНИЕ' for p in doc.paragraphs), 'Missing contents heading')
+require(any(p.text == 'ВВЕДЕНИЕ' for p in doc.paragraphs), 'Missing introduction')
+require(doc.sections[0].different_first_page_header_footer, 'Title page needs a separate empty footer')
+require(not doc.sections[0].first_page_footer._element.xpath('.//w:fldSimple'), 'Number visible on title footer')
+require(any('TOC ' in (element.text or '') for element in doc._element.iter(qn('w:instrText'))), 'Missing Word TOC field')
+pagination_path = ROOT / 'build/thesis-pagination-checks.json'
+pagination = json.loads(pagination_path.read_text()) if pagination_path.exists() else {}
+require(pagination.get('status') == 'passed', 'Missing successful pagination check')
+require(pagination.get('word_sha256') == digest(docx_path), 'Pagination report does not match Word')
+require(pagination.get('pdf_sha256') == digest(docx_path.with_suffix('.pdf')), 'Pagination report does not match PDF')
+require(len(pagination.get('table_headers', [])) == len(doc.tables), 'Rendered table column checks missing')
 
 result = {
     'status': 'failed' if errors else 'passed', 'body_words': len(body.split()),
@@ -175,9 +192,10 @@ result = {
     'evidence_entries': len(evidence), 'tables': len(doc.tables),
     'pdf_preflights': len(preflights), 'local_source_hashes_checked': hashes_checked,
     'course_excerpts_checked': excerpt_checks, 'local_sources_unavailable': local_missing,
+    'rendered_pages': pagination.get('pages'), 'contents_page': pagination.get('contents_page'),
     'artifact_hashes': {str(p.relative_to(ROOT)): digest(p) for p in [md_path, docx_path, ROOT / 'plan.md', ROOT / 'plan.docx']},
     'checked': 'Word container and basic structural formatting; current subsection and citation correspondence; source identities, local source hashes and new course excerpt anchors when available',
-    'not_checked': ['Visual pagination and line count after tables', 'Complete final thesis and department-specific acceptance', 'Unwritten comparative results', 'Publication authorship and date of course PDFs', 'Primary Russian rules, ship certificates and independent trial protocols'],
+    'not_checked': ['Complete final thesis and department-specific acceptance', 'Unwritten comparative results', 'Publication authorship and date of course PDFs', 'Primary Russian rules, ship certificates and independent trial protocols'],
     'errors': errors,
 }
 dest = ROOT / 'build/working-draft-checks.json'

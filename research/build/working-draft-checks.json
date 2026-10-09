@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "body_words": 4395,
+  "body_words": 5028,
   "subsections": [
     "1.1",
     "1.2",
@@ -18,15 +18,16 @@
   "local_source_hashes_checked": 21,
   "course_excerpts_checked": 8,
   "local_sources_unavailable": [],
+  "rendered_pages": 28,
+  "contents_page": 2,
   "artifact_hashes": {
-    "drafts/working-draft.md": "77ee80b08ff0be0656b9ebe093acdb88e33ed5f521d6265640d53e6a0cd130ee",
-    "drafts/working-draft.docx": "5c3d6dc77dc80c7a747bb21c149f99b4b538e0d7009f6d02aef746aa1f714ec3",
-    "plan.md": "2e6c09ab24d5159cf6fcf864b795f9b0bddcb3486fac9d6ec51859d05fec7353",
-    "plan.docx": "867b24e42cc68f7d04197af3713ca27c37a87a360d50ca8855cd2741c2943da8"
+    "drafts/working-draft.md": "a88e00ef474e8e2060c4f47a0449ff91632179d0fb4e54595910450e892e0e88",
+    "drafts/working-draft.docx": "864f3b3eba901938922f9beef202cb25e428feee12b879e6ae86e9f3938ecbe4",
+    "plan.md": "3f29acffa4c36848f99191b92ff4112368b7dc895d0e40eb01ddb6c3df77a396",
+    "plan.docx": "f342208f71922f0497274c3656c3aa8d1e3dd8bc4e1fe8a16a7eee860ae85c94"
   },
   "checked": "Word container and basic structural formatting; current subsection and citation correspondence; source identities, local source hashes and new course excerpt anchors when available",
   "not_checked": [
-    "Visual pagination and line count after tables",
     "Complete final thesis and department-specific acceptance",
     "Unwritten comparative results",
     "Publication authorship and date of course PDFs",

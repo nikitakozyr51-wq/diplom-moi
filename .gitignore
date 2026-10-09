@@ -19,3 +19,6 @@ research/literature/raw/
 # Export intermediates; final Word files and validation reports are retained.
 research/build/*-word.md
 research/build/plan-export.md
+research/build/render-original/
+research/build/render-current/
+research/build/draft-body.docx

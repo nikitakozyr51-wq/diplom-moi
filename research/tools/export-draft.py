@@ -4,6 +4,7 @@ from pathlib import Path
 import argparse
 import re
 import subprocess
+import sys
 
 from docx import Document
 from docx.enum.text import WD_ALIGN_PARAGRAPH
@@ -35,7 +36,8 @@ section = reference.sections[0]
 # This is a chapter fragment, with no university title page.
 section.different_first_page_header_footer = False
 reference.save(build / 'draft-reference.docx')
-output = args.output
+assemble = args.input.resolve() == (root / 'drafts' / 'working-draft.md').resolve()
+output = build / 'draft-body.docx' if assemble else args.output
 text = args.input.read_text(encoding='utf-8')
 body, marker, references = text.partition('# Список использованных источников')
 if marker:
@@ -74,12 +76,14 @@ for paragraph in doc.paragraphs:
             run.font.bold = False
 
 for table_index, table in enumerate(doc.tables):
+    table.style = 'Table Grid'
     widths = [2.3, 5.8, 8.4] if table_index == 0 else [5.0, 5.5, 6.0]
     table.autofit = False
     for row in table.rows:
         for index, cell in enumerate(row.cells):
             cell.width = Cm(widths[index])
             for paragraph in cell.paragraphs:
+                paragraph.style = doc.styles['Normal']
                 pf = paragraph.paragraph_format
                 pf.line_spacing = 1
                 pf.first_line_indent = Cm(0)
@@ -92,8 +96,20 @@ for table_index, table in enumerate(doc.tables):
     for column, width in zip(table.columns, widths):
         column.width = Cm(width)
     props = table.rows[0]._tr.get_or_add_trPr()
+    for existing in list(props.findall(qn('w:tblHeader'))):
+        props.remove(existing)
     repeat = OxmlElement('w:tblHeader')
     repeat.set(qn('w:val'), 'true')
     props.append(repeat)
+    for row in table.rows:
+        props = row._tr.get_or_add_trPr()
+        no_split = OxmlElement('w:cantSplit')
+        props.append(no_split)
 doc.save(output)
-print(output)
+if assemble:
+    subprocess.run([sys.executable, str(root / 'tools/assemble-thesis.py'),
+                    '--body', str(output), '--output', str(args.output)], check=True)
+    subprocess.run([sys.executable, str(root / 'tools/render-thesis.py'),
+                    '--docx', str(args.output)], check=True)
+else:
+    print(output)

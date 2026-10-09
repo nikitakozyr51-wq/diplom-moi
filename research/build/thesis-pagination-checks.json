@@ -1,0 +1,151 @@
+{
+  "status": "passed",
+  "renderer": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+  "pages": 28,
+  "contents_page": 2,
+  "title_page_number_visible": false,
+  "page_numbers": "2 through 28",
+  "contents": [
+    {
+      "heading": "ПЕРЕЧЕНЬ СОКРАЩЕНИЙ",
+      "label": "Перечень сокращений",
+      "bookmark": "VKRSection0",
+      "level": 1,
+      "page": 3
+    },
+    {
+      "heading": "ВВЕДЕНИЕ",
+      "label": "Введение",
+      "bookmark": "VKRSection1",
+      "level": 1,
+      "page": 4
+    },
+    {
+      "heading": "1 ТЕОРЕТИЧЕСКИЕ И НОРМАТИВНЫЕ ОСНОВЫ АВТОНОМНОГО СУДОВОЖДЕНИЯ ПРИ ПЛАВАНИИ В УЗКОСТЯХ",
+      "label": "1 Теоретические и нормативные основы автономного судовождения при плавании в узкостях",
+      "bookmark": "VKRSection2",
+      "level": 1,
+      "page": 7
+    },
+    {
+      "heading": "1.1 Понятия, режимы управления и участие человека",
+      "label": "1.1 Понятия, режимы управления и участие человека",
+      "bookmark": "VKRSection3",
+      "level": 2,
+      "page": 7
+    },
+    {
+      "heading": "1.2 Основные элементы технической системы",
+      "label": "1.2 Основные элементы технической системы",
+      "bookmark": "VKRSection4",
+      "level": 2,
+      "page": 10
+    },
+    {
+      "heading": "1.3 Особенности плавания в узкостях",
+      "label": "1.3 Особенности плавания в узкостях",
+      "bookmark": "VKRSection5",
+      "level": 2,
+      "page": 16
+    },
+    {
+      "heading": "1.4 Нормативные требования и границы разрешённых режимов",
+      "label": "1.4 Нормативные требования и границы разрешённых режимов",
+      "bookmark": "VKRSection6",
+      "level": 2,
+      "page": 19
+    },
+    {
+      "heading": "2 РОССИЙСКИЙ И ЗАРУБЕЖНЫЙ ОПЫТ ПРИМЕНЕНИЯ ТЕХНОЛОГИЙ АВТОНОМНОГО СУДОВОЖДЕНИЯ",
+      "label": "2 Российский и зарубежный опыт применения технологий автономного судовождения",
+      "bookmark": "VKRSection7",
+      "level": 1,
+      "page": 22
+    },
+    {
+      "heading": "2.1 Документированные этапы российских проектов",
+      "label": "2.1 Документированные этапы российских проектов",
+      "bookmark": "VKRSection8",
+      "level": 2,
+      "page": 22
+    },
+    {
+      "heading": "2.2 Функции комплекса и распределение управления",
+      "label": "2.2 Функции комплекса и распределение управления",
+      "bookmark": "VKRSection9",
+      "level": 2,
+      "page": 23
+    },
+    {
+      "heading": "2.3 Условия проверки и значение для плавания в узкостях",
+      "label": "2.3 Условия проверки и значение для плавания в узкостях",
+      "bookmark": "VKRSection10",
+      "level": 2,
+      "page": 24
+    },
+    {
+      "heading": "СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ",
+      "label": "Список использованных источников",
+      "bookmark": "VKRSection11",
+      "level": 1,
+      "page": 26
+    }
+  ],
+  "table_headers": [
+    {
+      "headers": [
+        "Степень",
+        "Характер управления",
+        "Участие человека"
+      ],
+      "page": 8,
+      "coordinates": [
+        [
+          8,
+          90.8,
+          221.49
+        ],
+        [
+          8,
+          156.0,
+          221.49
+        ],
+        [
+          8,
+          320.4,
+          221.49
+        ]
+      ]
+    },
+    {
+      "headers": [
+        "Пример",
+        "Что описано источником",
+        "Что необходимо проверить для узкости"
+      ],
+      "page": 25,
+      "coordinates": [
+        [
+          25,
+          90.8,
+          683.79
+        ],
+        [
+          25,
+          232.5,
+          683.79
+        ],
+        [
+          25,
+          388.4,
+          683.79
+        ]
+      ]
+    }
+  ],
+  "font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nBAAAAA+TimesNewRomanPS-BoldMT        TrueType          WinAnsi          yes yes yes    416  0\nCAAAAA+TimesNewRomanPSMT             TrueType          WinAnsi          yes yes yes    396  0\nDAAAAA+TimesNewRomanPSMT             TrueType          WinAnsi          yes yes yes    401  0\nEAAAAA+TimesNewRomanPSMT             TrueType          WinAnsi          yes yes yes    411  0\nFAAAAA+TimesNewRomanPS-BoldMT        TrueType          WinAnsi          yes yes yes    421  0\nGAAAAA+TimesNewRomanPSMT             TrueType          WinAnsi          yes yes yes    406  0",
+  "word_sha256": "864f3b3eba901938922f9beef202cb25e428feee12b879e6ae86e9f3938ecbe4",
+  "pdf_sha256": "b1c422b007a64855e57f21a7c0c7c8f8170251f3eca98a4a208f2816b915ab57",
+  "original_title_template_sha256": "a6a7fc9e6e978490845db7a4dc077ed6fe29679318e59c2abc0b980e8907944b",
+  "limits": "Pagination verified in the named LibreOffice renderer. Word may repaginate when edited or opened with different fonts."
+}

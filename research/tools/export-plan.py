@@ -54,11 +54,13 @@ for style_name in ["Normal", "Body Text", "First Paragraph", "Title", "Subtitle"
 footer = section.footer.paragraphs[0]
 footer.alignment = WD_ALIGN_PARAGRAPH.CENTER
 footer.paragraph_format.first_line_indent = Cm(0)
-run = footer.add_run()
+run = footer.add_run('2')
 run.font.name, run.font.size = "Times New Roman", Pt(12)
 field = OxmlElement("w:fldSimple")
 field.set(qn("w:instr"), "PAGE")
-run._r.append(field)
+footer._p.remove(run._r)
+field.append(run._r)
+footer._p.append(field)
 update = OxmlElement("w:updateFields")
 update.set(qn("w:val"), "true")
 reference.settings._element.append(update)
