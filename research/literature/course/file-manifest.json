@@ -1,0 +1,86 @@
+[
+  {
+    "source_id": "S011",
+    "section": 1,
+    "original_filename": "Раздел 1 Нормативные аспекты МАНС.pdf",
+    "local_file": "literature/course/originals/section-1.pdf",
+    "pages": 24,
+    "sha256": "620e310aeecce798d81ea93903f4225c060a5efe840bb476b0bdc0c606117088",
+    "received_date": "2026-10-09",
+    "publication_author": null,
+    "publication_date": null,
+    "read_scope": "Просмотрены библиографические и нормативные фрагменты с. 2–4, 9–12. Законопроект не заменяет действующее право; Кодекс MASS 2026 года в просмотренном изложении не учтён."
+  },
+  {
+    "source_id": "S012",
+    "section": 2,
+    "original_filename": "РАЗДЕЛ 2. ПРИНЦИПЫ ОРГАНИЗАЦИИ СТРУКТУРЫ МАНС.pdf",
+    "local_file": "literature/course/originals/section-2.pdf",
+    "pages": 24,
+    "sha256": "469584bddc46007c48341c85980610e2d203538a77f05e355b0e1f94d3293105",
+    "received_date": "2026-10-09",
+    "publication_author": null,
+    "publication_date": null,
+    "read_scope": "Проверены библиографические фрагменты с. 2–3 и описание структуры с. 10–13. Конкретный комплекс БЭС-КФ, не универсальная архитектура MASS."
+  },
+  {
+    "source_id": "S013",
+    "section": 3,
+    "original_filename": "РАЗДЕЛ 3. МАТЕМАТИЧЕСКИЕ ОСНОВЫ СРЕДСТВ АВТОНОМНОСТИ СУДНА.pdf",
+    "local_file": "literature/course/originals/section-3.pdf",
+    "pages": 69,
+    "sha256": "110c0d7b85ab636b54f7887cf9051ba206608ec4d5b6b4fbcd58e4ac25c1f44c",
+    "received_date": "2026-10-09",
+    "publication_author": null,
+    "publication_date": null,
+    "read_scope": "Проверены фрагменты с. 25–26, 44–45, 58–59. Для текста использованы с. 58–59; численный радиус 24 мили не переносился как общий доказанный результат."
+  },
+  {
+    "source_id": "S014",
+    "section": 4,
+    "original_filename": "РАЗДЕЛ 4. ТЕХНИЧЕСКИЕ СРЕДСТВА СУДОВОЖДЕНИЯ МАНС.pdf",
+    "local_file": "literature/course/originals/section-4.pdf",
+    "pages": 25,
+    "sha256": "4b15e264524b83705ad9774638134db201524d489be09a5d16ad15aad9e7f44b",
+    "received_date": "2026-10-09",
+    "publication_author": null,
+    "publication_date": null,
+    "read_scope": "Проверены с. 2–4, 7–9. Перечень средств и функций не подтверждает параметры конкретного судна или результаты испытаний."
+  },
+  {
+    "source_id": "S015",
+    "section": 5,
+    "original_filename": "РАЗДЕЛ 5. ИНФОРМАЦИОННЫЕ ПОТОКИ МАНС.pdf",
+    "local_file": "literature/course/originals/section-5.pdf",
+    "pages": 49,
+    "sha256": "824a452ce117fbf605297df8bb9371125e04b54f9ff1d8feec9c73a597b0b598",
+    "received_date": "2026-10-09",
+    "publication_author": null,
+    "publication_date": null,
+    "read_scope": "Проверены фрагменты с. 5–6, 22–25, 38–41. Для текста использованы с. 39–40; заявления о дальности 12 миль и точности выше зрения человека не подтверждены протоколом."
+  },
+  {
+    "source_id": "S016",
+    "section": 7,
+    "original_filename": "РАЗДЕЛ 7. КИБЕРБЕЗОПАСНОСТЬ.pdf",
+    "local_file": "literature/course/originals/section-7.pdf",
+    "pages": 35,
+    "sha256": "3f049214c6c9e5f227ac64adc3c1a4e2deb14ccc2df95f2080d8138e4a22df07",
+    "received_date": "2026-10-09",
+    "publication_author": null,
+    "publication_date": null,
+    "read_scope": "Проверены фрагменты с. 5, 23–24, 26. Перечень симптомов не устанавливает причину отказа или факт кибератаки."
+  },
+  {
+    "source_id": "S017",
+    "section": 8,
+    "original_filename": "РАЗДЕЛ 8. УПРАВЛЕНИЕ МАНС.pdf",
+    "local_file": "literature/course/originals/section-8.pdf",
+    "pages": 18,
+    "sha256": "d39aea24e7cc9929a1e35bfaff96ceee92cd12e8ef258d09b5cae78c8454409a",
+    "received_date": "2026-10-09",
+    "publication_author": null,
+    "publication_date": null,
+    "read_scope": "Проверены с. 1, 9. Пример переключателя БЭС-КФ не подтверждает оснащение каждого рассматриваемого судна."
+  }
+]

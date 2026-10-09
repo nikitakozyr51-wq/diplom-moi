@@ -1,0 +1,63 @@
+{
+  "checker": "ars-acronym-check/1.0",
+  "input": "/workspace/diplom-moi/research/drafts/chapter-1-start.md",
+  "input_sha256": "22a5897572bac3c0e2cac36792e5486f9427a6bb92c91cf261996c939c468c4a",
+  "status": "checked",
+  "allowlist": {
+    "default": 29,
+    "user": []
+  },
+  "coverage": {
+    "body": "checked",
+    "abstract_en": "not_requested",
+    "abstract_zh": "not_requested"
+  },
+  "scope_lines": {
+    "body": [
+      [
+        2,
+        2
+      ],
+      [
+        4,
+        33
+      ],
+      [
+        35,
+        55
+      ],
+      [
+        57,
+        60
+      ]
+    ]
+  },
+  "unread_sections": [],
+  "coverage_limits": [],
+  "findings": [
+    {
+      "scope": "body",
+      "line": 9,
+      "rule": "undefined",
+      "acronym": "MSC",
+      "expansion": null,
+      "occurrences": 6
+    },
+    {
+      "scope": "body",
+      "line": 59,
+      "rule": "defined_again",
+      "acronym": "MASS",
+      "expansion": "Maritime Autonomous Surface Ships",
+      "occurrences": 8
+    },
+    {
+      "scope": "body",
+      "line": 60,
+      "rule": "undefined",
+      "acronym": "FAQ",
+      "expansion": null,
+      "occurrences": 1
+    }
+  ]
+}

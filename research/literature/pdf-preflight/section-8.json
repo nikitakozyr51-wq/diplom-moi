@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "research/literature/course/originals/section-8.pdf",
+  "sha256": "d39aea24e7cc9929a1e35bfaff96ceee92cd12e8ef258d09b5cae78c8454409a",
+  "declared_page_count": 18,
+  "enumerated_page_count": 18,
+  "reader_page_count": 18,
+  "warnings": [],
+  "generated_at": "2026-10-09T09:39:44.952344+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

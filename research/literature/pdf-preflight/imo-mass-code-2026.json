@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "research/literature/raw/imo-mass-code-2026.pdf",
+  "sha256": "075aea6e06c034f2bb7e07cb44cdbe9f62593767e03c2eb133f6b888d6cdd65a",
+  "declared_page_count": 87,
+  "enumerated_page_count": 87,
+  "reader_page_count": 87,
+  "warnings": [],
+  "generated_at": "2026-10-09T09:39:46.154717+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

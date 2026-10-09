@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "research/literature/raw/imo-mass-trials-2019.pdf",
+  "sha256": "6cb32a4c79e9a23a165235cc7d8b9b2a341463126ed48a7d15405393569a491a",
+  "declared_page_count": 4,
+  "enumerated_page_count": 4,
+  "reader_page_count": 4,
+  "warnings": [],
+  "generated_at": "2026-10-09T09:39:46.686371+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "research/literature/raw/imo-mass-rse-2021.pdf",
+  "sha256": "fb5bedcf838d32bb2fcb13fd9bddf02abab24f85f9bd1a90fe8d98164ab461a7",
+  "declared_page_count": 105,
+  "enumerated_page_count": 105,
+  "reader_page_count": 105,
+  "warnings": [],
+  "generated_at": "2026-10-09T09:39:46.432663+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

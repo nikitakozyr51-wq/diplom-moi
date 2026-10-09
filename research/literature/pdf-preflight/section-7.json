@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "research/literature/course/originals/section-7.pdf",
+  "sha256": "3f049214c6c9e5f227ac64adc3c1a4e2deb14ccc2df95f2080d8138e4a22df07",
+  "declared_page_count": 35,
+  "enumerated_page_count": 35,
+  "reader_page_count": 35,
+  "warnings": [],
+  "generated_at": "2026-10-09T09:39:44.114298+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

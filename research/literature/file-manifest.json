@@ -1,0 +1,124 @@
+[
+  {
+    "source_id": "S001",
+    "path": "literature/raw/imo-mass-code-2026.pdf",
+    "bytes": 929364,
+    "sha256": "075aea6e06c034f2bb7e07cb44cdbe9f62593767e03c2eb133f6b888d6cdd65a"
+  },
+  {
+    "source_id": "S002",
+    "path": "literature/raw/imo-mass-rse-2021.pdf",
+    "bytes": 769187,
+    "sha256": "fb5bedcf838d32bb2fcb13fd9bddf02abab24f85f9bd1a90fe8d98164ab461a7"
+  },
+  {
+    "source_id": "S003",
+    "path": "literature/raw/imo-autonomous-shipping-browser.txt",
+    "bytes": 10135,
+    "sha256": "d2c50230dd294638662e3b197890c19d2ab75037733c220072da7dcef1f8233f"
+  },
+  {
+    "source_id": "S004",
+    "path": "literature/raw/imo-mass-trials-2019.pdf",
+    "bytes": 51311,
+    "sha256": "6cb32a4c79e9a23a165235cc7d8b9b2a341463126ed48a7d15405393569a491a"
+  },
+  {
+    "source_id": "S005",
+    "path": "literature/raw/imo-colreg.html",
+    "bytes": 59758,
+    "sha256": "317307e24e488066706d48fa0a0610934d817efc0299391df04d75b9ecdae0ee"
+  },
+  {
+    "source_id": "S006",
+    "path": "literature/raw/imo-voyage-guidelines.pdf",
+    "bytes": 497327,
+    "sha256": "5251aa1bcce27df66bbc017425eaca14f9e6c20549cc259500b646159fbdea05"
+  },
+  {
+    "source_id": "S007",
+    "path": "literature/raw/sitronics-demo-6966-article.txt",
+    "bytes": 5555,
+    "sha256": "668d8dda2d0e91ddd4e23bf00aef29d0430faf290df236e8dbeaf7b50e85474f"
+  },
+  {
+    "source_id": "S008",
+    "path": "literature/raw/sitronics-ferry-15592-article.txt",
+    "bytes": 9955,
+    "sha256": "2cdfd292bd7d0ac5c398110f58b47a3f4d3545d8db781293263433bb965e238a"
+  },
+  {
+    "source_id": "S009",
+    "path": "literature/raw/sitronics-certificates-15295-article.txt",
+    "bytes": 4684,
+    "sha256": "747d18dc0b2462edb66e4cdb598f0614d3bbf67183ba15a3ca5aecd1d6b9be93"
+  },
+  {
+    "source_id": "S010",
+    "path": "literature/raw/sitronics-boat-18730-article.txt",
+    "bytes": 6370,
+    "sha256": "21ac618c52e503cdad7ef5e7d8bf9d5e99011af1ff7a9a852e281f30c0302b7a"
+  },
+  {
+    "path": "literature/raw/sitronics-boat-18730.html",
+    "bytes": 1004061,
+    "sha256": "aa3ab3c6170fa608cf1fdcc96329c6984ce54a24dbf7c12c3225d0136bcfd46a"
+  },
+  {
+    "path": "literature/raw/sitronics-demo-6966.html",
+    "bytes": 1012479,
+    "sha256": "ff47746b035cce7b3bf97ff19f82af70c7defffc7d9f782a8e53fc8b79c4e200"
+  },
+  {
+    "path": "literature/raw/sitronics-ferry-15592.html",
+    "bytes": 1008187,
+    "sha256": "bb8082d027d8400453535fb2ef37d5f6bf90bb323b30e3ca067e70f3762d769e"
+  },
+  {
+    "path": "literature/raw/sitronics-certificates-15295.html",
+    "bytes": 1002115,
+    "sha256": "4307e3cf7665bf23a96ac7b7bd4aaf9ecdf7a50264af902422237336b47ff68b"
+  },
+  {
+    "source_id": "S011",
+    "path": "literature/course/originals/section-1.pdf",
+    "bytes": 511519,
+    "sha256": "620e310aeecce798d81ea93903f4225c060a5efe840bb476b0bdc0c606117088"
+  },
+  {
+    "source_id": "S012",
+    "path": "literature/course/originals/section-2.pdf",
+    "bytes": 1360525,
+    "sha256": "469584bddc46007c48341c85980610e2d203538a77f05e355b0e1f94d3293105"
+  },
+  {
+    "source_id": "S013",
+    "path": "literature/course/originals/section-3.pdf",
+    "bytes": 1595054,
+    "sha256": "110c0d7b85ab636b54f7887cf9051ba206608ec4d5b6b4fbcd58e4ac25c1f44c"
+  },
+  {
+    "source_id": "S014",
+    "path": "literature/course/originals/section-4.pdf",
+    "bytes": 499998,
+    "sha256": "4b15e264524b83705ad9774638134db201524d489be09a5d16ad15aad9e7f44b"
+  },
+  {
+    "source_id": "S015",
+    "path": "literature/course/originals/section-5.pdf",
+    "bytes": 3398250,
+    "sha256": "824a452ce117fbf605297df8bb9371125e04b54f9ff1d8feec9c73a597b0b598"
+  },
+  {
+    "source_id": "S016",
+    "path": "literature/course/originals/section-7.pdf",
+    "bytes": 836215,
+    "sha256": "3f049214c6c9e5f227ac64adc3c1a4e2deb14ccc2df95f2080d8138e4a22df07"
+  },
+  {
+    "source_id": "S017",
+    "path": "literature/course/originals/section-8.pdf",
+    "bytes": 1014876,
+    "sha256": "d39aea24e7cc9929a1e35bfaff96ceee92cd12e8ef258d09b5cae78c8454409a"
+  }
+]

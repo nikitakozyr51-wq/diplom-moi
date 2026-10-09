@@ -1,0 +1,17 @@
+[
+  {
+    "file": "requirements/originals/formatting-requirements.pdf",
+    "bytes": 369995,
+    "sha256": "17fbbf498ac7d15405a033d8e8297604afd18d8bf0204fad99571d002f9de9cc"
+  },
+  {
+    "file": "requirements/originals/title-template.docx",
+    "bytes": 23400,
+    "sha256": "a6a7fc9e6e978490845db7a4dc077ed6fe29679318e59c2abc0b980e8907944b"
+  },
+  {
+    "file": "requirements/originals/vkr-regulation.pdf",
+    "bytes": 660460,
+    "sha256": "4028a31134c68b0e7820386621952d20e7bd063cac600b5374d5c549c0e4a2c8"
+  }
+]

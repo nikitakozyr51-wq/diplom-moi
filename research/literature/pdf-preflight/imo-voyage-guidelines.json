@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "research/literature/raw/imo-voyage-guidelines.pdf",
+  "sha256": "5251aa1bcce27df66bbc017425eaca14f9e6c20549cc259500b646159fbdea05",
+  "declared_page_count": 7,
+  "enumerated_page_count": 7,
+  "reader_page_count": 7,
+  "warnings": [],
+  "generated_at": "2026-10-09T09:39:46.878787+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

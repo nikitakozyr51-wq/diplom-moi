@@ -1,0 +1,102 @@
+{
+  "checker": "ars-acronym-check/1.0",
+  "input": "research/drafts/working-draft.md",
+  "input_sha256": "77ee80b08ff0be0656b9ebe093acdb88e33ed5f521d6265640d53e6a0cd130ee",
+  "status": "partial",
+  "allowlist": {
+    "default": 29,
+    "user": []
+  },
+  "coverage": {
+    "body": "checked",
+    "abstract_en": "not_requested",
+    "abstract_zh": "not_requested"
+  },
+  "scope_lines": {
+    "body": [
+      [
+        2,
+        2
+      ],
+      [
+        4,
+        33
+      ],
+      [
+        35,
+        67
+      ],
+      [
+        69,
+        87
+      ],
+      [
+        89,
+        105
+      ],
+      [
+        107,
+        107
+      ],
+      [
+        109,
+        119
+      ],
+      [
+        121,
+        129
+      ],
+      [
+        131,
+        143
+      ],
+      [
+        145,
+        161
+      ]
+    ]
+  },
+  "unread_sections": [],
+  "coverage_limits": [
+    {
+      "scope": "body",
+      "line": 149,
+      "acronym": "COLREG",
+      "reason": "unconfirmed_definition"
+    }
+  ],
+  "findings": [
+    {
+      "scope": "body",
+      "line": 9,
+      "rule": "undefined",
+      "acronym": "MSC",
+      "expansion": null,
+      "occurrences": 8
+    },
+    {
+      "scope": "body",
+      "line": 110,
+      "rule": "undefined",
+      "acronym": "KT",
+      "expansion": null,
+      "occurrences": 3
+    },
+    {
+      "scope": "body",
+      "line": 147,
+      "rule": "defined_again",
+      "acronym": "MASS",
+      "expansion": "Maritime Autonomous Surface Ships",
+      "occurrences": 14
+    },
+    {
+      "scope": "body",
+      "line": 148,
+      "rule": "undefined",
+      "acronym": "FAQ",
+      "expansion": null,
+      "occurrences": 1
+    }
+  ]
+}
