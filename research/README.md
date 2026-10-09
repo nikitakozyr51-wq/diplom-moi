@@ -1,6 +1,6 @@
 # Материалы диплома
 
-Основной текущий текст: [working-draft.docx](drafts/working-draft.docx?raw=true) и [working-draft.md](drafts/working-draft.md). Word и Markdown содержат главу 1, начальную российскую часть главы 2 и 16 использованных источников. Для скачивания через GitHub используйте ссылки из [главной страницы](../README.md).
+Основной текущий текст: [working-draft.docx](drafts/working-draft.docx?raw=true) и [working-draft.md](drafts/working-draft.md). Word содержит официальный титул и полный план в содержании. Основной текст Word и Markdown включает введение, 1.1–1.5, российскую часть 2.1–2.3 и 19 использованных источников. Проверенная сборка — 31 страница. Для скачивания через GitHub используйте ссылки из [главной страницы](../README.md).
 
 - [Подробный план](plan.md) и [план в Word](plan.docx?raw=true).
 - [Порядок работы](work-plan.md), [контекст](project-context.md), [применение скилла](academic-workflow.md).
@@ -9,7 +9,7 @@
 - [Разбор семи учебных разделов](literature/course/reading-notes.md); [карта прочитанных источников](literature/reading-notes.md).
 - [Российские примеры](projects/russian-cases.md) — три группы эпизодов одного разработчика, с границами доказательств.
 - [Требования вуза](requirements/requirements.md).
-- [sources.csv](sources.csv): 17 источников; [evidence.csv](evidence.csv): 44 утверждения; [карта номеров ссылок](literature/citation-map.csv).
+- [sources.csv](sources.csv): 20 источников; [evidence.csv](evidence.csv): 51 запись проверки; [карта номеров ссылок](literature/citation-map.csv).
 - [Библиография](bibliography.md), [контрольные суммы](literature/file-manifest.json), [проверка структуры PDF](literature/pdf-preflight/).
 - [Рабочая глава 1](drafts/chapter-1.docx?raw=true) и [начало главы 2](drafts/chapter-2-russia-start.md). Номера ссылок отдельных глав относятся к общему списку.
 

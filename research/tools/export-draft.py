@@ -77,12 +77,17 @@ for paragraph in doc.paragraphs:
 
 for table_index, table in enumerate(doc.tables):
     table.style = 'Table Grid'
-    widths = [2.3, 5.8, 8.4] if table_index == 0 else [5.0, 5.5, 6.0]
+    first_header = table.cell(0, 0).text
+    widths = ([2.3, 5.8, 8.4] if first_header.startswith('Степень') else
+              [4.2, 5.8, 6.5] if first_header == 'Звено системы' else [5.0, 5.5, 6.0])
     table.autofit = False
-    for row in table.rows:
+    for row_index, row in enumerate(table.rows):
         for index, cell in enumerate(row.cells):
             cell.width = Cm(widths[index])
             for paragraph in cell.paragraphs:
+                # Current tables fit one page; keep them together with their
+                # caption instead of emitting an unlabelled continuation.
+                paragraph.paragraph_format.keep_with_next = row_index < len(table.rows) - 1
                 paragraph.style = doc.styles['Normal']
                 pf = paragraph.paragraph_format
                 pf.line_spacing = 1

@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://link.springer.com/article/10.1007/s40979-023-00146-z",
+    "read_scope": "abstract and conclusion only; 2023 evaluated tools, not Russian Antiplagiat 2026",
+    "local_file": "literature/raw/detector-evaluation.html",
+    "sha256": "8b421779c3e39f4ba9fad2e6fbd6308ec38c8d88b193b70edee0171c167dcf51",
+    "access_date": "2026-10-09"
+  },
+  {
+    "url": "https://ease.org.uk/publications/author-guidelines-authors-and-translators/",
+    "read_scope": "landing page and metadata only; PDF download returned HTTP 403",
+    "local_file": "literature/raw/ease-writing.html",
+    "sha256": "3c494c5f9847139e0053b8eb38e853f74fe948de667790a45b642c9fa20824e9",
+    "access_date": "2026-10-09"
+  }
+]

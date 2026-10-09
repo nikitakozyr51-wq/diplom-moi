@@ -120,5 +120,41 @@
     "path": "literature/course/originals/section-8.pdf",
     "bytes": 1014876,
     "sha256": "d39aea24e7cc9929a1e35bfaff96ceee92cd12e8ef258d09b5cae78c8454409a"
+  },
+  {
+    "source_id": "S018",
+    "path": "literature/raw/fossen-marine-model.html",
+    "bytes": 33270,
+    "sha256": "dfb340c3fa95e8367c8ae7b6176459b9974de55fbec72f67fe2b14f14cc66405"
+  },
+  {
+    "source_id": "S018",
+    "path": "literature/raw/fossen-marine-model.txt",
+    "bytes": 24170,
+    "sha256": "e95275f028961917fc09184288aba50a5a639ac546b0ba86a1ac4bb2abd18faa"
+  },
+  {
+    "source_id": "S019",
+    "path": "literature/raw/uscg-rules-page.html",
+    "bytes": 285745,
+    "sha256": "32f9261e2bcc64786f1979f6fef9d5e30f810fd8526a9f93c0f89a65966d00c2"
+  },
+  {
+    "source_id": "S019",
+    "path": "literature/raw/uscg-rules-page.txt",
+    "bytes": 139096,
+    "sha256": "e9f9256487412fbcdf1752f2bd900b90119a99a0fe1d52853d18c9831d29fd0b"
+  },
+  {
+    "source_id": "S020",
+    "path": "literature/raw/architecture-2025.html",
+    "bytes": 677291,
+    "sha256": "d4e2298b04e8688d70238ea1d06e7a8f3ceab7b45c311146e5ad14a82edc7571"
+  },
+  {
+    "source_id": "S020",
+    "path": "literature/raw/architecture-2025.txt",
+    "bytes": 143752,
+    "sha256": "7fe749d8fefb7434dce28bd70ce1814d518996310b41e78e9f572e769b5a561b"
   }
 ]

@@ -1,0 +1,28 @@
+[
+  {
+    "name": "fossen-marine-model",
+    "url": "https://www.fossen.biz/html/marineCraftModel.html",
+    "final_url": "https://www.fossen.biz/html/marineCraftModel.html",
+    "status": 200,
+    "bytes": 33270
+  },
+  {
+    "name": "detector-evaluation",
+    "url": "https://link.springer.com/article/10.1007/s40979-023-00146-z",
+    "final_url": "https://link.springer.com/article/10.1007/s40979-023-00146-z?error=cookies_not_supported&code=c666d8ee-6cd4-4aa3-8f6f-a71c5ba984c8",
+    "status": 200,
+    "bytes": 493242
+  },
+  {
+    "name": "ease-writing",
+    "url": "https://ease.org.uk/publications/author-guidelines-authors-and-translators/",
+    "final_url": "https://ease.org.uk/publications/author-guidelines-authors-and-translators/",
+    "status": 200,
+    "bytes": 114641
+  },
+  {
+    "name": "scientific-writing",
+    "url": "https://www.americanscientist.org/blog/the-long-view/the-science-of-scientific-writing",
+    "error": "HTTP Error 503: Service Unavailable"
+  }
+]

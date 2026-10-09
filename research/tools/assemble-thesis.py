@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Combine the official cover with the written thesis and a cached Word TOC.
+"""Combine the official cover, complete planned contents and written thesis.
 
 The original template remains untouched. Page numbers are refreshed from a
-rendered PDF using --pagination-pdf; Word can subsequently update the TOC.
+rendered PDF using --pagination-pdf. Future sections have no page references.
 """
 import argparse
 from copy import deepcopy
@@ -52,7 +52,7 @@ def fill(paragraph, text, size=12):
 
 cover[0]._element.getparent().remove(cover[0]._element)  # Appendix label of blank form.
 fill(cover[10], 'Направление подготовки (специальность) 26.05.05 Судовождение')
-fill(cover[24], 'Обучающегося Козырева Никиты Алексеевича, группа S-612')
+fill(cover[24], 'Обучающегося Козырева Никиты Алексеевича, группа С-612')
 fill(cover[26], 'Вид работы: выпускная квалификационная работа специалиста')
 fill(cover[31], 'Тема: ' + TOPIC, 14)
 cover[32]._element.getparent().remove(cover[32]._element)
@@ -111,10 +111,10 @@ glossary = doc.add_paragraph('ПЕРЕЧЕНЬ СОКРАЩЕНИЙ', structural
 abbreviations = [
     ('ММО', 'Международная морская организация'),
     ('MASS', 'Maritime Autonomous Surface Ship — морское автономное надводное судно'),
+    ('МППСС-72', 'Международные правила предупреждения столкновений судов в море 1972 года'),
+    ('ГНСС', 'глобальная навигационная спутниковая система'),
     ('РЛС', 'радиолокационная станция'),
     ('АИС', 'автоматическая идентификационная система'),
-    ('ГНСС', 'глобальная навигационная спутниковая система'),
-    ('МППСС-72', 'Международные правила предупреждения столкновений судов в море 1972 года'),
 ]
 for abbreviation, expansion in abbreviations:
     doc.add_paragraph(abbreviation + '\t' + expansion, abbreviation_style)
@@ -165,19 +165,40 @@ for paragraph in doc.paragraphs:
                     'level': 2 if paragraph.style.name == 'Heading 2' else 1})
 
 normalize = lambda s: re.sub(r'\s+', '', s).casefold()
+written = {normalize(e['label']): e for e in entries}
+planned = []
+for line in (ROOT / 'contents-plan.md').read_text().splitlines():
+    label = line.removeprefix('## ').strip()
+    if (re.match(r'^\d[. ]', label) or label in
+            ('Перечень сокращений', 'Введение', 'Заключение',
+             'Список использованных источников', 'Приложения (при необходимости)')):
+        entry = written.pop(normalize(label), None)
+        if entry is None:
+            entry = {'heading': label, 'label': label, 'bookmark': None,
+                     'level': 2 if re.match(r'^\d\.\d', label) else 1}
+        entry['written'] = entry['bookmark'] is not None
+        entry['page'] = None
+        planned.append(entry)
+if written:
+    raise ValueError('Written headings absent from the approved plan: ' + str(list(written)))
+entries = planned
 if args.pagination_pdf:
     from pypdf import PdfReader
-    pages = [normalize(p.extract_text()) for p in PdfReader(args.pagination_pdf).pages]
+    raw_pages = [p.extract_text() for p in PdfReader(args.pagination_pdf).pages]
+    pages = [normalize(p) for p in raw_pages]
+    start = next(i for i, text in enumerate(raw_pages)
+                 if any(line.strip() == 'ПЕРЕЧЕНЬ СОКРАЩЕНИЙ' for line in text.splitlines()))
     for entry in entries:
-        # Exclude contents pages; the glossary is the first included section.
-        start = next(i for i, text in enumerate(pages[2:], 2) if normalize(entries[0]['heading']) in text)
+        if not entry['written']:
+            continue
         matches = [i + 1 for i, text in enumerate(pages) if i >= start and normalize(entry['heading']) in text]
         if len(matches) != 1:
             raise ValueError('Cannot locate heading uniquely: ' + entry['heading'] + ': ' + str(matches))
         entry['page'] = matches[0]
 else:
     for entry in entries:
-        entry['page'] = 0  # Refreshed before delivery, never published as zero.
+        if entry['written']:
+            entry['page'] = 0  # Refreshed before delivery, never published as zero.
 
 def field_char(paragraph, kind):
     element = OxmlElement('w:fldChar')
@@ -190,17 +211,17 @@ for index, entry in enumerate(entries):
     paragraph = doc.add_paragraph(style=toc_style)
     last.addnext(paragraph._p)
     last = paragraph._p
-    if index == 0:
-        field_char(paragraph, 'begin')
-        instruction = OxmlElement('w:instrText')
-        instruction.set(qn('xml:space'), 'preserve')
-        instruction.text = ' TOC \\o "1-2" \\h \\z \\u '
-        paragraph.add_run()._r.append(instruction)
-        field_char(paragraph, 'separate')
+    # Keep the approved outline stable when Word updates page fields.
+    # An outer TOC field would discard headings that have no body yet.
     if entry['level'] == 2:
         paragraph.paragraph_format.left_indent = Cm(0.5)
         paragraph.paragraph_format.tab_stops.clear_all()
         paragraph.paragraph_format.tab_stops.add_tab_stop(Cm(16), WD_TAB_ALIGNMENT.RIGHT, WD_TAB_LEADER.DOTS)
+    if not entry['written']:
+        paragraph.add_run(entry['label'])
+        continue
+    # Reserve room so a long heading cannot touch its page number.
+    paragraph.paragraph_format.right_indent = Cm(0.8)
     link = OxmlElement('w:hyperlink')
     link.set(qn('w:anchor'), entry['bookmark'])
     run, txt = OxmlElement('w:r'), OxmlElement('w:t')
@@ -208,7 +229,7 @@ for index, entry in enumerate(entries):
     run.append(txt)
     link.append(run)
     paragraph._p.append(link)
-    paragraph.add_run('\t')
+    paragraph.add_run('\u00a0\t')
     field = OxmlElement('w:fldSimple')
     field.set(qn('w:instr'), 'PAGEREF ' + entry['bookmark'] + ' \\h')
     run, txt = OxmlElement('w:r'), OxmlElement('w:t')
@@ -216,8 +237,6 @@ for index, entry in enumerate(entries):
     run.append(txt)
     field.append(run)
     paragraph._p.append(field)
-    if index == len(entries) - 1:
-        field_char(paragraph, 'end')
 
 section = doc.sections[0]
 section.page_width, section.page_height = Cm(21), Cm(29.7)

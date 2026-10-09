@@ -4,22 +4,20 @@
   "short_plan_pages": 2,
   "detailed_plan_pages": 13,
   "checks": [
-    "Subsection names and order agree between short and detailed plans",
-    "All subsection names present in Word and rendered PDF",
-    "A4, margins, Times New Roman 14 pt and 1.5 line spacing",
-    "Visible footer page numbers 1 and 2",
-    "Both pages of short plan visually inspected"
+    "All 17 subsection names preserved in both plans and short-plan Word/PDF",
+    "Cyrillic group identifier",
+    "Short-plan footer numbering verified by coordinates",
+    "Main Word contains complete outline; only written sections carry pages"
   ],
   "limits": [
-    "Proposed structure requires supervisor feedback",
-    "Current thesis retains earlier subsection numbering",
-    "Terminology sources for the new narrow-waters subsection still need verification"
+    "Proposed structure awaits supervisor feedback",
+    "Formal navigation textbook and primary Russian regulatory documents still needed"
   ],
   "sha256": {
-    "contents-plan.md": "48cc7f2745ba944a4df039dfc9ce5cecc81b1ec9e51d63615af39050e8c81463",
-    "contents-plan.docx": "9e2eb8374deff25e8df45391f2d646b09f06df7bd1781131c2ba7bd4349173e2",
-    "contents-plan.pdf": "9c532fb9c53357d68de59db06644dbaffe371cb538660c2c3ffc577c76a8d533",
-    "plan.md": "9cf833d280b6061dc98693c766eb27628d868414866b1252139f1fbfd3ef4e9d",
-    "plan.docx": "3321eaeaf3624956b7891db60c27eadb38bfe98179e6de69bb88ef5f531dadc7"
+    "contents-plan.md": "4aae7e3ad35e5d3c722253563ea4f35345bce2707642f38b6ddff29f45c2d9c3",
+    "contents-plan.docx": "e148ef3af21636a36943e85d631820fa4f5f20d888521d64c4ca0d0b16051e81",
+    "contents-plan.pdf": "edd24035156206494014cddc5f4117f19db410108ee19a79e9ed2937d3f56f5f",
+    "plan.md": "fc60dff9f1635b18a9e8b2773651b9497b1144cf02772325b1dcc0e775d6e241",
+    "plan.docx": "682f457f2bb07387dc1331137690ae15c7968a259f82dcdb688316e7ce806d2d"
   }
 }

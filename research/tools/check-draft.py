@@ -171,13 +171,24 @@ for table in doc.tables:
 
 # A partial thesis still starts with its official cover and written preliminaries.
 require(len(doc.inline_shapes) == 1, 'Official cover emblem is missing')
-require('Козырева Никиты Алексеевича, группа S-612' in word_text, 'Student cover details are missing')
+require('Козырева Никиты Алексеевича, группа С-612' in word_text, 'Student cover details are missing')
 require('26.05.05 Судовождение' in word_text, 'Specialty is missing')
 require(any(p.text == 'СОДЕРЖАНИЕ' for p in doc.paragraphs), 'Missing contents heading')
 require(any(p.text == 'ВВЕДЕНИЕ' for p in doc.paragraphs), 'Missing introduction')
 require(doc.sections[0].different_first_page_header_footer, 'Title page needs a separate empty footer')
 require(not doc.sections[0].first_page_footer._element.xpath('.//w:fldSimple'), 'Number visible on title footer')
-require(any('TOC ' in (element.text or '') for element in doc._element.iter(qn('w:instrText'))), 'Missing Word TOC field')
+contents = json.loads((ROOT / 'build/thesis-contents.json').read_text())
+planned_labels = []
+for line in (ROOT / 'contents-plan.md').read_text().splitlines():
+    label = line.removeprefix('## ').strip()
+    if re.match(r'^\d[. ]', label) or label in ('Перечень сокращений', 'Введение', 'Заключение', 'Список использованных источников', 'Приложения (при необходимости)'):
+        planned_labels.append(label)
+require([e['label'] for e in contents] == planned_labels, 'Contents differs from the complete approved plan')
+page_refs = [e for e in doc._element.iter(qn('w:fldSimple')) if 'PAGEREF ' in e.get(qn('w:instr'), '')]
+require(len(page_refs) == sum(e['written'] for e in contents), 'Missing or fictitious contents page references')
+require(all(e['page'] is None for e in contents if not e['written']), 'Future sections have fabricated pages')
+require('раздел в разработке' not in word_text.casefold(), 'Unwanted placeholder in manuscript')
+require('PDF-файл, предоставленный автором ВКР' not in word_text, 'Internal provenance note leaked into bibliography')
 pagination_path = ROOT / 'build/thesis-pagination-checks.json'
 pagination = json.loads(pagination_path.read_text()) if pagination_path.exists() else {}
 require(pagination.get('status') == 'passed', 'Missing successful pagination check')
