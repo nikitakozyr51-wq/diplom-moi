@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "body_words": 5559,
+  "body_words": 6580,
   "subsections": [
     "1.1",
     "1.2",
@@ -11,21 +11,21 @@
     "2.2",
     "2.3"
   ],
-  "references": 19,
-  "sources": 20,
-  "evidence_entries": 51,
+  "references": 21,
+  "sources": 22,
+  "evidence_entries": 58,
   "tables": 3,
   "pdf_preflights": 11,
-  "local_source_hashes_checked": 27,
-  "course_excerpts_checked": 11,
+  "local_source_hashes_checked": 33,
+  "course_excerpts_checked": 12,
   "local_sources_unavailable": [],
-  "rendered_pages": 31,
+  "rendered_pages": 35,
   "contents_page": 2,
   "artifact_hashes": {
-    "drafts/working-draft.md": "6fa4645bb4d34fe93ea47f25881d871eda39cb9507efaa9dfd93288d6989a515",
-    "drafts/working-draft.docx": "9d679f75c3819eaca81815ea0c3a5160d9eae393c3f7d0c6cd8ed68b6bfef448",
+    "drafts/working-draft.md": "86c451e8f6507b5679212c5f31ee081dc8af7e09f093eb6ef27d4fd6256eb261",
+    "drafts/working-draft.docx": "06125e6bdde7669e4a2144a6dda0363f3d67fa370c05ca55ba0396a249a820a6",
     "plan.md": "fc60dff9f1635b18a9e8b2773651b9497b1144cf02772325b1dcc0e775d6e241",
-    "plan.docx": "682f457f2bb07387dc1331137690ae15c7968a259f82dcdb688316e7ce806d2d"
+    "plan.docx": "9de350a4ed8ec78230e08fa1f88344dd78ff158bb39e06829aff5086ded86084"
   },
   "checked": "Word container and basic structural formatting; current subsection and citation correspondence; source identities, local source hashes and new course excerpt anchors when available",
   "not_checked": [

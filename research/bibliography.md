@@ -17,5 +17,7 @@
 15. Раздел 8. Управление МАНС : учебный материал [Электронный ресурс] // СДО «Фарватер». — [Б. г.]. — 18 с.
 16. Раздел 7. Кибербезопасность : учебный материал [Электронный ресурс] // СДО «Фарватер». — [Б. г.]. — 35 с.
 17. Fossen T. I. Fossen’s Marine Craft Model [Электронный ресурс]. — URL: <https://www.fossen.biz/html/marineCraftModel.html> (дата обращения: 09.10.2026).
-18. United States Coast Guard Navigation Center. Navigation Rules: Amalgamated [Электронный ресурс] : международные положения правил 3 и 9. — URL: <https://www.navcen.uscg.gov/navigation-rules-amalgamated> (дата обращения: 09.10.2026).
+18. United States Coast Guard Navigation Center. Navigation Rules: Amalgamated [Электронный ресурс] : международные положения правил 3 и 5–9. — URL: <https://www.navcen.uscg.gov/navigation-rules-amalgamated> (дата обращения: 09.10.2026).
 19. Alamoush A. S., Ölçer A. I. Maritime Autonomous Surface Ships: Architecture for Autonomous Navigation Systems // Journal of Marine Science and Engineering. — 2025. — Vol. 13, no. 1. — Art. 122. — DOI: 10.3390/jmse13010122. — URL: <https://www.mdpi.com/2077-1312/13/1/122> (дата обращения: 09.10.2026).
+20. Международная морская организация. Введение в ИМО [Электронный ресурс]. — URL: <https://www.imo.org/ru/About/Pages/Default.aspx> (дата обращения: 11.10.2026).
+21. Fossen T. I. Python Vehicle Simulator : README и исходный код [Электронный ресурс]. — Версия a93d1938ba1f, 26.09.2026. — URL: <https://github.com/cybergalactic/PythonVehicleSimulator/tree/a93d1938ba1f78f2580c24c73f003091b2f03cd0> (дата обращения: 11.10.2026).

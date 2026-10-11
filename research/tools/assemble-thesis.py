@@ -109,12 +109,17 @@ doc.add_paragraph('СОДЕРЖАНИЕ', front)
 entries = []
 glossary = doc.add_paragraph('ПЕРЕЧЕНЬ СОКРАЩЕНИЙ', structural)
 abbreviations = [
-    ('ММО', 'Международная морская организация'),
+    ('ИМО', 'Международная морская организация'),
     ('MASS', 'Maritime Autonomous Surface Ship — морское автономное надводное судно'),
     ('МППСС-72', 'Международные правила предупреждения столкновений судов в море 1972 года'),
     ('ГНСС', 'глобальная навигационная спутниковая система'),
     ('РЛС', 'радиолокационная станция'),
+    ('САРП', 'средства автоматической радиолокационной прокладки'),
     ('АИС', 'автоматическая идентификационная система'),
+    ('ЭКНИС', 'электронная картографическая навигационно-информационная система'),
+    ('CAS', 'Collision Avoidance System — система предотвращения столкновений'),
+    ('АНС', 'автономная навигационная система'),
+    ('ПИД', 'пропорционально-интегрально-дифференциальный'),
 ]
 for abbreviation, expansion in abbreviations:
     doc.add_paragraph(abbreviation + '\t' + expansion, abbreviation_style)
@@ -191,7 +196,11 @@ if args.pagination_pdf:
     for entry in entries:
         if not entry['written']:
             continue
-        matches = [i + 1 for i, text in enumerate(pages) if i >= start and normalize(entry['heading']) in text]
+        # Preserve heading case: a bibliography title such as «Введение в ИМО»
+        # is not the structural heading «ВВЕДЕНИЕ».
+        heading_text = re.sub(r'\s+', '', entry['heading'])
+        matches = [i + 1 for i, text in enumerate(raw_pages)
+                   if i >= start and heading_text in re.sub(r'\s+', '', text)]
         if len(matches) != 1:
             raise ValueError('Cannot locate heading uniquely: ' + entry['heading'] + ': ' + str(matches))
         entry['page'] = matches[0]

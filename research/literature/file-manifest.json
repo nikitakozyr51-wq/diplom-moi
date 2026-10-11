@@ -156,5 +156,41 @@
     "path": "literature/raw/architecture-2025.txt",
     "bytes": 143752,
     "sha256": "7fe749d8fefb7434dce28bd70ce1814d518996310b41e78e9f572e769b5a561b"
+  },
+  {
+    "source_id": "S021",
+    "path": "literature/raw/imo-russian-about.html",
+    "bytes": 69419,
+    "sha256": "e6bd610020f372dee258b958b3cc12992a0764a0c1a3e289f0bdd56b92c977cb"
+  },
+  {
+    "source_id": "S021",
+    "path": "literature/raw/imo-russian-about.txt",
+    "bytes": 16883,
+    "sha256": "79da150f4c9e34f3a812a62424562ef730a836c49f5226a07886b33d81e4c896"
+  },
+  {
+    "source_id": "S022",
+    "path": "literature/raw/pvs-readme.md",
+    "bytes": 3912,
+    "sha256": "9f33eb1729aa716e3991762f4cab7ba289f182325bcd4b0c82627db33f2f30b3"
+  },
+  {
+    "source_id": "S022",
+    "path": "literature/raw/pvs-commit.json",
+    "bytes": 4860,
+    "sha256": "3b8d764534dd29f4bb3fa5f1f97115917cf356c19ab48fbbc70d697f13ff1de4"
+  },
+  {
+    "source_id": "S022",
+    "path": "literature/raw/pvs-frigate.py",
+    "bytes": 7477,
+    "sha256": "e7bf101acb76b525f90a782c7f7671e155c614e8335fe16d7de88c5d553451db"
+  },
+  {
+    "source_id": "S022",
+    "path": "literature/raw/pvs-control.py",
+    "bytes": 3065,
+    "sha256": "a5c7e4162e8dc436cd5ede1f1f535f981dcb26eda3a059fd3e2862ca79fb6d09"
   }
 ]
