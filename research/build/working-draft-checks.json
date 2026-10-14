@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "body_words": 6580,
+  "body_words": 6652,
   "subsections": [
     "1.1",
     "1.2",
@@ -19,11 +19,11 @@
   "local_source_hashes_checked": 33,
   "course_excerpts_checked": 12,
   "local_sources_unavailable": [],
-  "rendered_pages": 35,
+  "rendered_pages": 36,
   "contents_page": 2,
   "artifact_hashes": {
-    "drafts/working-draft.md": "86c451e8f6507b5679212c5f31ee081dc8af7e09f093eb6ef27d4fd6256eb261",
-    "drafts/working-draft.docx": "06125e6bdde7669e4a2144a6dda0363f3d67fa370c05ca55ba0396a249a820a6",
+    "drafts/working-draft.md": "b279c74091e898ee35fb19749b306d612307e2c267ec010250be4376ac5d17ef",
+    "drafts/working-draft.docx": "78e64cdba071b85730ffdd11da397379bb91e3ac671e6f5d8cec12f4b599f72b",
     "plan.md": "fc60dff9f1635b18a9e8b2773651b9497b1144cf02772325b1dcc0e775d6e241",
     "plan.docx": "9de350a4ed8ec78230e08fa1f88344dd78ff158bb39e06829aff5086ded86084"
   },

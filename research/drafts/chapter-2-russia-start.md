@@ -20,13 +20,13 @@
 
 Для рассматриваемой темы существеннее всего опубликованное распределение режимов. В сообщении 2023 года прохождение узкостей и вход в порт описаны как ручное управление совместно с поддержкой принятия решений, тогда как дистанционный режим отнесён к движению в море [7]. Таким образом, этот источник позволяет изучать применение автономных технологий в составе судовождения, но не подтверждает самостоятельное выполнение системой полного прохода через узкость. Перечень разрешённых режимов необходимо сверить с самими выданными документами и актуальными условиями эксплуатации.
 
-Маломерный катер представляет иной вариант распределения задач. В сентябрьской публикации 2026 года основной режим описан как автономный, а дистанционное управление — как доступный вариант при нештатной ситуации [10]. При дальнейшем анализе необходимо установить, как контролировалась навигационная обстановка, какие события должны были вызывать вмешательство и какие ограничения были предусмотрены для рейса. Поскольку опубликованное сообщение не раскрывает полный протокол операции, эти вопросы пока нельзя считать проверенными.
+Маломерный катер представляет иной вариант распределения задач. В сентябрьской публикации 2026 года основной режим описан как автономный, а дистанционное управление предусмотрено как доступный вариант при нештатной ситуации [10]. При дальнейшем анализе необходимо установить, как контролировалась навигационная обстановка, какие события должны были вызывать вмешательство и какие ограничения были предусмотрены для рейса. Поскольку опубликованное сообщение не раскрывает полный протокол операции, эти вопросы пока нельзя считать проверенными.
 
 ## 2.3 Испытания и эксплуатация российских систем: результаты и ограничения
 
 Для сопоставления российских примеров в таблице 2.1 указано, что именно описано источником и какие сведения необходимы для анализа узкостей. Таблица отражает текущую доступную доказательную базу, а не рейтинг технических решений. Все рассмотренные сообщения опубликованы участником проектов, поэтому совпадение нескольких публикаций нельзя считать независимой проверкой результата.
 
-Таблица 2.1 — Первоначальная оценка российских примеров по опубликованным сведениям
+Таблица 2.1 – Первоначальная оценка российских примеров по опубликованным сведениям
 
 | Пример | Что описано источником | Что необходимо проверить для узкости |
 |---|---|---|
@@ -38,24 +38,24 @@
 
 # Список использованных источников
 
-1. International Maritime Organization. International Code of Safety for Maritime Autonomous Surface Ships (MASS Code) : resolution MSC.595(111) // MSC 111/22. Annex 16. — 2026. — 87 p. — URL: <https://wwwcdn.imo.org/localresources/en/MediaCentre/Documents/MSC%20111-22-Annex%2016%20(Secretariat).pdf> (дата обращения: 08.10.2026).
-2. International Maritime Organization. Outcome of the Regulatory Scoping Exercise for the Use of Maritime Autonomous Surface Ships (MASS) : MSC.1/Circ.1638, 3 June 2021. — 2021. — URL: <https://wwwcdn.imo.org/localresources/en/MediaCentre/Documents/MSC.1-Circ.1638%20-%20Outcome%20Of%20The%20Regulatory%20Scoping%20ExerciseFor%20The%20Use%20Of%20Maritime%20Autonomous%20Surface%20Ships...%20(Secretariat).pdf> (дата обращения: 08.10.2026).
-3. International Maritime Organization. FAQ — Autonomous shipping. — URL: <https://www.imo.org/en/mediacentre/hottopics/pages/autonomous-shipping.aspx> (дата обращения: 08.10.2026).
-4. International Maritime Organization. Convention on the International Regulations for Preventing Collisions at Sea, 1972 (COLREGs) : official overview. — URL: <https://www.imo.org/en/about/conventions/pages/colreg.aspx> (дата обращения: 09.10.2026).
-5. International Maritime Organization. Guidelines for Voyage Planning : resolution A.893(21), adopted on 25 November 1999. — URL: <https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.893(21).pdf> (дата обращения: 09.10.2026).
-6. International Maritime Organization. Interim Guidelines for MASS Trials : MSC.1/Circ.1604, 14 June 2019. — URL: <https://wwwcdn.imo.org/localresources/en/MediaCentre/HotTopics/Documents/MSC.1-Circ.1604%20-%20Interim%20Guidelines%20For%20Mass%20Trials%20%28Secretariat%29.pdf> (дата обращения: 08.10.2026).
-7. Sitronics Group. Паромы ФГУП «Росморпорт» получили первые в России удостоверения морских автономных и дистанционно управляемых надводных судов. — 03.10.2023. — URL: <https://www.sitronics.com/reports/15295> (дата обращения: 09.10.2026).
-8. Sitronics Group. Компания Sitronics KT продемонстрировала автономное судовождение в реальных условиях. — 11.05.2021. — URL: <https://www.sitronics.com/reports/6966> (дата обращения: 09.10.2026).
-9. Sitronics Group. В России началась коммерческая эксплуатация первого морского судна в режиме дистанционного управления: паром «Генерал Черняховский» начал автономный рейс. — 19.12.2023. — URL: <https://www.sitronics.com/reports/15592> (дата обращения: 09.10.2026).
-10. Sitronics Group. Безэкипажный катер Sitronics KT доставил бюллетени для голосования и избирательную документацию на островные территории Архангельской области. — 15.09.2026. — URL: <https://www.sitronics.com/reports/18730> (дата обращения: 09.10.2026).
-11. Раздел 2. Принципы организации структуры МАНС : учебный материал [Электронный ресурс] // СДО «Фарватер». — [Б. г.]. — 24 с.
-12. Раздел 4. Технические средства судовождения МАНС : учебный материал [Электронный ресурс] // СДО «Фарватер». — [Б. г.]. — 25 с.
-13. Раздел 5. Информационные потоки МАНС : учебный материал [Электронный ресурс] // СДО «Фарватер». — [Б. г.]. — 49 с.
-14. Раздел 3. Математические основы средств автономности судна : учебный материал [Электронный ресурс] // СДО «Фарватер». — [Б. г.]. — 69 с.
-15. Раздел 8. Управление МАНС : учебный материал [Электронный ресурс] // СДО «Фарватер». — [Б. г.]. — 18 с.
-16. Раздел 7. Кибербезопасность : учебный материал [Электронный ресурс] // СДО «Фарватер». — [Б. г.]. — 35 с.
-17. Fossen T. I. Fossen’s Marine Craft Model [Электронный ресурс]. — URL: <https://www.fossen.biz/html/marineCraftModel.html> (дата обращения: 09.10.2026).
-18. United States Coast Guard Navigation Center. Navigation Rules: Amalgamated [Электронный ресурс] : международные положения правил 3 и 5–9. — URL: <https://www.navcen.uscg.gov/navigation-rules-amalgamated> (дата обращения: 09.10.2026).
-19. Alamoush A. S., Ölçer A. I. Maritime Autonomous Surface Ships: Architecture for Autonomous Navigation Systems // Journal of Marine Science and Engineering. — 2025. — Vol. 13, no. 1. — Art. 122. — DOI: 10.3390/jmse13010122. — URL: <https://www.mdpi.com/2077-1312/13/1/122> (дата обращения: 09.10.2026).
-20. Международная морская организация. Введение в ИМО [Электронный ресурс]. — URL: <https://www.imo.org/ru/About/Pages/Default.aspx> (дата обращения: 11.10.2026).
-21. Fossen T. I. Python Vehicle Simulator : README и исходный код [Электронный ресурс]. — Версия a93d1938ba1f, 26.09.2026. — URL: <https://github.com/cybergalactic/PythonVehicleSimulator/tree/a93d1938ba1f78f2580c24c73f003091b2f03cd0> (дата обращения: 11.10.2026).
+1. International Maritime Organization. International Code of Safety for Maritime Autonomous Surface Ships (MASS Code) : resolution MSC.595(111) // MSC 111/22. Annex 16. – 2026. – 87 p. – URL: <https://wwwcdn.imo.org/localresources/en/MediaCentre/Documents/MSC%20111-22-Annex%2016%20(Secretariat).pdf> (дата обращения: 08.10.2026).
+2. International Maritime Organization. Outcome of the Regulatory Scoping Exercise for the Use of Maritime Autonomous Surface Ships (MASS) : MSC.1/Circ.1638, 3 June 2021. – 2021. – URL: <https://wwwcdn.imo.org/localresources/en/MediaCentre/Documents/MSC.1-Circ.1638%20-%20Outcome%20Of%20The%20Regulatory%20Scoping%20ExerciseFor%20The%20Use%20Of%20Maritime%20Autonomous%20Surface%20Ships...%20(Secretariat).pdf> (дата обращения: 08.10.2026).
+3. International Maritime Organization. FAQ – Autonomous shipping. – URL: <https://www.imo.org/en/mediacentre/hottopics/pages/autonomous-shipping.aspx> (дата обращения: 08.10.2026).
+4. International Maritime Organization. Convention on the International Regulations for Preventing Collisions at Sea, 1972 (COLREGs) : official overview. – URL: <https://www.imo.org/en/about/conventions/pages/colreg.aspx> (дата обращения: 09.10.2026).
+5. International Maritime Organization. Guidelines for Voyage Planning : resolution A.893(21), adopted on 25 November 1999. – URL: <https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.893(21).pdf> (дата обращения: 09.10.2026).
+6. International Maritime Organization. Interim Guidelines for MASS Trials : MSC.1/Circ.1604, 14 June 2019. – URL: <https://wwwcdn.imo.org/localresources/en/MediaCentre/HotTopics/Documents/MSC.1-Circ.1604%20-%20Interim%20Guidelines%20For%20Mass%20Trials%20%28Secretariat%29.pdf> (дата обращения: 08.10.2026).
+7. Sitronics Group. Паромы ФГУП «Росморпорт» получили первые в России удостоверения морских автономных и дистанционно управляемых надводных судов. – 03.10.2023. – URL: <https://www.sitronics.com/reports/15295> (дата обращения: 09.10.2026).
+8. Sitronics Group. Компания Sitronics KT продемонстрировала автономное судовождение в реальных условиях. – 11.05.2021. – URL: <https://www.sitronics.com/reports/6966> (дата обращения: 09.10.2026).
+9. Sitronics Group. В России началась коммерческая эксплуатация первого морского судна в режиме дистанционного управления: паром «Генерал Черняховский» начал автономный рейс. – 19.12.2023. – URL: <https://www.sitronics.com/reports/15592> (дата обращения: 09.10.2026).
+10. Sitronics Group. Безэкипажный катер Sitronics KT доставил бюллетени для голосования и избирательную документацию на островные территории Архангельской области. – 15.09.2026. – URL: <https://www.sitronics.com/reports/18730> (дата обращения: 09.10.2026).
+11. Раздел 2. Принципы организации структуры МАНС : учебный материал [Электронный ресурс] // СДО «Фарватер». – [Б. г.]. – 24 с.
+12. Раздел 4. Технические средства судовождения МАНС : учебный материал [Электронный ресурс] // СДО «Фарватер». – [Б. г.]. – 25 с.
+13. Раздел 5. Информационные потоки МАНС : учебный материал [Электронный ресурс] // СДО «Фарватер». – [Б. г.]. – 49 с.
+14. Раздел 3. Математические основы средств автономности судна : учебный материал [Электронный ресурс] // СДО «Фарватер». – [Б. г.]. – 69 с.
+15. Раздел 8. Управление МАНС : учебный материал [Электронный ресурс] // СДО «Фарватер». – [Б. г.]. – 18 с.
+16. Раздел 7. Кибербезопасность : учебный материал [Электронный ресурс] // СДО «Фарватер». – [Б. г.]. – 35 с.
+17. Fossen T. I. Fossen’s Marine Craft Model [Электронный ресурс]. – URL: <https://www.fossen.biz/html/marineCraftModel.html> (дата обращения: 09.10.2026).
+18. United States Coast Guard Navigation Center. Navigation Rules: Amalgamated [Электронный ресурс] : международные положения правил 3 и 5–9. – URL: <https://www.navcen.uscg.gov/navigation-rules-amalgamated> (дата обращения: 09.10.2026).
+19. Alamoush A. S., Ölçer A. I. Maritime Autonomous Surface Ships: Architecture for Autonomous Navigation Systems // Journal of Marine Science and Engineering. – 2025. – Vol. 13, no. 1. – Art. 122. – DOI: 10.3390/jmse13010122. – URL: <https://www.mdpi.com/2077-1312/13/1/122> (дата обращения: 09.10.2026).
+20. Международная морская организация. Введение в ИМО [Электронный ресурс]. – URL: <https://www.imo.org/ru/About/Pages/Default.aspx> (дата обращения: 11.10.2026).
+21. Fossen T. I. Python Vehicle Simulator : README и исходный код [Электронный ресурс]. – Версия a93d1938ba1f, 26.09.2026. – URL: <https://github.com/cybergalactic/PythonVehicleSimulator/tree/a93d1938ba1f78f2580c24c73f003091b2f03cd0> (дата обращения: 11.10.2026).

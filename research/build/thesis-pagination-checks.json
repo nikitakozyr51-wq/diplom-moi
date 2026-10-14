@@ -1,13 +1,13 @@
 {
   "status": "passed",
   "renderer": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
-  "pages": 35,
+  "pages": 36,
   "contents_page": 2,
   "title_page_number_visible": false,
   "contents_page_count": 2,
   "planned_entries": 26,
   "written_entries": 13,
-  "page_numbers": "2 through 35",
+  "page_numbers": "2 through 36",
   "contents": [
     {
       "heading": "ПЕРЕЧЕНЬ СОКРАЩЕНИЙ",
@@ -63,7 +63,7 @@
       "bookmark": "VKRSection6",
       "level": 2,
       "written": true,
-      "page": 23
+      "page": 24
     },
     {
       "heading": "1.5 Международные требования к безопасности автономного судовождения",
@@ -79,7 +79,7 @@
       "bookmark": "VKRSection8",
       "level": 1,
       "written": true,
-      "page": 29
+      "page": 30
     },
     {
       "heading": "2.1 Развитие автономного судовождения в России и основные проекты",
@@ -87,7 +87,7 @@
       "bookmark": "VKRSection9",
       "level": 2,
       "written": true,
-      "page": 29
+      "page": 30
     },
     {
       "heading": "2.2 Российские технические решения и реализованные навигационные функции",
@@ -95,7 +95,7 @@
       "bookmark": "VKRSection10",
       "level": 2,
       "written": true,
-      "page": 30
+      "page": 31
     },
     {
       "heading": "2.3 Испытания и эксплуатация российских систем: результаты и ограничения",
@@ -103,7 +103,7 @@
       "bookmark": "VKRSection11",
       "level": 2,
       "written": true,
-      "page": 31
+      "page": 32
     },
     {
       "heading": "2.4 Нормативные и организационные условия применения автономного судовождения в России",
@@ -207,7 +207,7 @@
       "bookmark": "VKRSection12",
       "level": 1,
       "written": true,
-      "page": 33
+      "page": 34
     },
     {
       "heading": "Приложения (при необходимости)",
@@ -256,17 +256,17 @@
         [
           22,
           90.8,
-          704.49
+          583.74
         ],
         [
           22,
           209.8,
-          704.49
+          583.74
         ],
         [
           22,
           374.25,
-          704.49
+          583.74
         ]
       ],
       "all_cells_on_one_page": true
@@ -277,20 +277,20 @@
         "Что описано источником",
         "Что необходимо проверить для узкости"
       ],
-      "page": 32,
+      "page": 33,
       "coordinates": [
         [
-          32,
+          33,
           90.8,
           635.49
         ],
         [
-          32,
+          33,
           232.5,
           635.49
         ],
         [
-          32,
+          33,
           388.4,
           635.49
         ]
@@ -298,9 +298,9 @@
       "all_cells_on_one_page": true
     }
   ],
-  "font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nBAAAAA+TimesNewRomanPS-BoldMT        TrueType          WinAnsi          yes yes yes    564  0\nCAAAAA+TimesNewRomanPSMT             TrueType          WinAnsi          yes yes yes    544  0\nDAAAAA+TimesNewRomanPSMT             TrueType          WinAnsi          yes yes yes    549  0\nEAAAAA+TimesNewRomanPSMT             TrueType          WinAnsi          yes yes yes    559  0\nFAAAAA+TimesNewRomanPS-BoldMT        TrueType          WinAnsi          yes yes yes    569  0\nGAAAAA+TimesNewRomanPSMT             TrueType          WinAnsi          yes yes yes    554  0",
-  "word_sha256": "06125e6bdde7669e4a2144a6dda0363f3d67fa370c05ca55ba0396a249a820a6",
-  "pdf_sha256": "962062063d13fec38706de80c9e5737c609e874b6046284614a2715eed8db0e8",
+  "font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nBAAAAA+TimesNewRomanPS-BoldMT        TrueType          WinAnsi          yes yes yes    566  0\nCAAAAA+TimesNewRomanPSMT             TrueType          WinAnsi          yes yes yes    546  0\nDAAAAA+TimesNewRomanPSMT             TrueType          WinAnsi          yes yes yes    551  0\nEAAAAA+TimesNewRomanPSMT             TrueType          WinAnsi          yes yes yes    561  0\nFAAAAA+TimesNewRomanPS-BoldMT        TrueType          WinAnsi          yes yes yes    571  0\nGAAAAA+TimesNewRomanPSMT             TrueType          WinAnsi          yes yes yes    556  0",
+  "word_sha256": "78e64cdba071b85730ffdd11da397379bb91e3ac671e6f5d8cec12f4b599f72b",
+  "pdf_sha256": "64e92935d428a31e8b391468a02e08f7d6df5902bdc5b1c31cfba6c91b15bb9d",
   "original_title_template_sha256": "a6a7fc9e6e978490845db7a4dc077ed6fe29679318e59c2abc0b980e8907944b",
   "limits": "Pagination verified in the named LibreOffice renderer. Word may repaginate when edited or opened with different fonts."
 }
