@@ -42,9 +42,9 @@
   "contents_page": 2,
   "artifact_hashes": {
     "drafts/working-draft.md": "d651179c562f77c3a5cac76eb901dc67f1319905d91b5726595f54fb92e6267a",
-    "drafts/working-draft.docx": "7ac7f8f8dc20b59119ed4906dcee51c1a1ac75fe8e63809c657794781bb20428",
-    "plan.md": "65d64623a0c080d2f3532c00c0e2e2abfbf82baaf5d725e035fb425a215f29a8",
-    "plan.docx": "24f9d6168d212bfeaf087d4590aff8019805f560d253edabb2f76acfae0cc8b7"
+    "drafts/working-draft.docx": "ab0e1393fac77774de29608bddf9fc9cc8a0a354421727cbaf01ea71b5cab52c",
+    "plan.md": "5dd3157582c62714c6adda9d705fd3ad040780810adc87233d53af49f9029e4c",
+    "plan.docx": "cbd303a600d262ae2291333ca5267c74ed3151da4215e02005ec499f474b97e8"
   },
   "checked": "Word container and basic structural formatting; current subsection and citation correspondence; source identities, local source hashes and new course excerpt anchors when available",
   "not_checked": [

@@ -162,8 +162,8 @@
       "page": null
     },
     {
-      "heading": "4.1 Условия внедрения автономных функций и перспективы локальных ИИ-помощников судоводителя",
-      "label": "4.1 Условия внедрения автономных функций и перспективы локальных ИИ-помощников судоводителя",
+      "heading": "4.1 Условия применения технологий автономного судовождения на морском флоте",
+      "label": "4.1 Условия применения технологий автономного судовождения на морском флоте",
       "bookmark": null,
       "level": 2,
       "written": false,
@@ -299,8 +299,8 @@
     }
   ],
   "font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimesNewRomanPSMT                    TrueType          WinAnsi          no  no  no       5  0\nTimesNewRomanPS-BoldMT               CID TrueType      Identity-H       yes no  yes      9  0\nTimesNewRomanPS-BoldMT               TrueType          WinAnsi          no  no  no      14  0\nTimesNewRomanPSMT                    CID TrueType      Identity-H       yes no  yes     16  0\nArialMT                              TrueType          WinAnsi          no  no  no     105  0\nBCDEEE+Calibri-Light                 TrueType          WinAnsi          yes yes no     109  0",
-  "word_sha256": "7ac7f8f8dc20b59119ed4906dcee51c1a1ac75fe8e63809c657794781bb20428",
-  "pdf_sha256": "97828f95fc8ce35a21075d471de492fca66edd13b9652cc606bfa3c41beb5a94",
+  "word_sha256": "ab0e1393fac77774de29608bddf9fc9cc8a0a354421727cbaf01ea71b5cab52c",
+  "pdf_sha256": "0ff9aff64177cc02375661eb217bf266c7552ccd491b1a5f2a6a2d13bc24c661",
   "original_title_template_sha256": "a6a7fc9e6e978490845db7a4dc077ed6fe29679318e59c2abc0b980e8907944b",
   "limits": "Pagination verified in the named renderer. Word may repaginate when edited or opened with different fonts."
 }
