@@ -25,13 +25,19 @@ if fonts.exists():
     env['FONTCONFIG_FILE'] = str(fonts)
     env['XDG_CACHE_HOME'] = '/workspace/shared/render-cache'
 renderer = shutil.which('soffice')
-if not renderer:
+use_word = not renderer and os.name == 'nt'
+if not renderer and not use_word:
     raise SystemExit('LibreOffice is required to refresh and check contents pages.')
 pdf = directory / (args.docx.stem + '.pdf')
 
 def render():
     if pdf.exists():
         pdf.unlink()
+    if use_word:
+        subprocess.run(['powershell.exe', '-NoProfile', '-ExecutionPolicy', 'Bypass',
+                        '-File', str(ROOT / 'tools/render-word.ps1'),
+                        str(args.docx.resolve()), str(pdf.resolve())], check=True, timeout=120)
+        return
     result = subprocess.run([renderer, '--headless', '--convert-to', 'pdf',
                              '--outdir', str(directory), str(args.docx)],
                             env=env, capture_output=True, text=True, timeout=60)
@@ -42,7 +48,7 @@ render()
 for attempt in range(3):
     subprocess.run([sys.executable, str(ROOT / 'tools/assemble-thesis.py'),
                     '--output', str(args.docx), '--pagination-pdf', str(pdf)], check=True)
-    expected = json.loads((ROOT / 'build/thesis-contents.json').read_text())
+    expected = json.loads((ROOT / 'build/thesis-contents.json').read_text(encoding='utf-8'))
     render()
     pdf_pages = PdfReader(pdf).pages
     pages = [p.extract_text() for p in pdf_pages]
@@ -100,7 +106,7 @@ published_pdf = args.docx.with_suffix('.pdf')
 shutil.copyfile(pdf, published_pdf)
 font_result = subprocess.run(['pdffonts', str(pdf)], capture_output=True, text=True, check=True)
 report = {
-    'status': 'passed', 'renderer': subprocess.check_output([renderer, '--version'], env=env, text=True).strip(),
+    'status': 'passed', 'renderer': 'Microsoft Word' if use_word else subprocess.check_output([renderer, '--version'], env=env, text=True).strip(),
     'pages': len(pages), 'contents_page': 2, 'title_page_number_visible': False,
     'contents_page_count': glossary_page - 2,
     'planned_entries': len(expected), 'written_entries': sum(e['written'] for e in expected),
@@ -110,7 +116,7 @@ report = {
     'word_sha256': hashlib.sha256(args.docx.read_bytes()).hexdigest(),
     'pdf_sha256': hashlib.sha256(published_pdf.read_bytes()).hexdigest(),
     'original_title_template_sha256': hashlib.sha256((ROOT / 'requirements/originals/title-template.docx').read_bytes()).hexdigest(),
-    'limits': 'Pagination verified in the named LibreOffice renderer. Word may repaginate when edited or opened with different fonts.',
+    'limits': 'Pagination verified in the named renderer. Word may repaginate when edited or opened with different fonts.',
 }
-(ROOT / 'build/thesis-pagination-checks.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
+(ROOT / 'build/thesis-pagination-checks.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 print('Pagination passed:', len(pages), 'pages;', published_pdf)

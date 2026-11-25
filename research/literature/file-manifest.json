@@ -192,5 +192,11 @@
     "path": "literature/raw/pvs-control.py",
     "bytes": 3065,
     "sha256": "a5c7e4162e8dc436cd5ede1f1f535f981dcb26eda3a059fd3e2862ca79fb6d09"
+  },
+  {
+    "source_id": "S023",
+    "path": "literature/raw/mintrans-140.pdf",
+    "bytes": 361415,
+    "sha256": "c20eb5ad7f7950650549222158b41d48682423c8ba615ce178f062f9c5dd851c"
   }
 ]

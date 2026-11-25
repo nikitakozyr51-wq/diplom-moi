@@ -172,7 +172,7 @@ for paragraph in doc.paragraphs:
 normalize = lambda s: re.sub(r'\s+', '', s).casefold()
 written = {normalize(e['label']): e for e in entries}
 planned = []
-for line in (ROOT / 'contents-plan.md').read_text().splitlines():
+for line in (ROOT / 'contents-plan.md').read_text(encoding='utf-8').splitlines():
     label = line.removeprefix('## ').strip()
     if (re.match(r'^\d[. ]', label) or label in
             ('Перечень сокращений', 'Введение', 'Заключение',
@@ -275,5 +275,5 @@ if update is None:
     doc.settings._element.append(update)
 update.set(qn('w:val'), 'true')
 doc.save(args.output)
-(ROOT / 'build/thesis-contents.json').write_text(json.dumps(entries, ensure_ascii=False, indent=2) + '\n')
+(ROOT / 'build/thesis-contents.json').write_text(json.dumps(entries, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 print(args.output)

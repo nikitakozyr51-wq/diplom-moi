@@ -1,13 +1,13 @@
 {
   "status": "passed",
-  "renderer": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
-  "pages": 36,
+  "renderer": "Microsoft Word",
+  "pages": 38,
   "contents_page": 2,
   "title_page_number_visible": false,
   "contents_page_count": 2,
   "planned_entries": 26,
-  "written_entries": 13,
-  "page_numbers": "2 through 36",
+  "written_entries": 14,
+  "page_numbers": "2 through 38",
   "contents": [
     {
       "heading": "ПЕРЕЧЕНЬ СОКРАЩЕНИЙ",
@@ -108,10 +108,10 @@
     {
       "heading": "2.4 Нормативные и организационные условия применения автономного судовождения в России",
       "label": "2.4 Нормативные и организационные условия применения автономного судовождения в России",
-      "bookmark": null,
+      "bookmark": "VKRSection12",
       "level": 2,
-      "written": false,
-      "page": null
+      "written": true,
+      "page": 33
     },
     {
       "heading": "3 Анализ применимости технологий автономного судовождения при плавании в узкостях",
@@ -204,10 +204,10 @@
     {
       "heading": "СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ",
       "label": "Список использованных источников",
-      "bookmark": "VKRSection12",
+      "bookmark": "VKRSection13",
       "level": 1,
       "written": true,
-      "page": 34
+      "page": 36
     },
     {
       "heading": "Приложения (при необходимости)",
@@ -229,18 +229,18 @@
       "coordinates": [
         [
           9,
-          90.8,
-          221.49
+          90.74,
+          221.57
         ],
         [
           9,
-          156.0,
-          221.49
+          155.9,
+          221.57
         ],
         [
           9,
-          320.4,
-          221.49
+          320.11,
+          221.57
         ]
       ],
       "all_cells_on_one_page": true
@@ -255,18 +255,18 @@
       "coordinates": [
         [
           22,
-          90.8,
-          583.74
+          90.74,
+          583.78
         ],
         [
           22,
-          209.8,
-          583.74
+          209.69,
+          583.78
         ],
         [
           22,
-          374.25,
-          583.74
+          373.99,
+          583.78
         ]
       ],
       "all_cells_on_one_page": true
@@ -281,26 +281,26 @@
       "coordinates": [
         [
           33,
-          90.8,
-          635.49
+          90.74,
+          635.5
         ],
         [
           33,
-          232.5,
-          635.49
+          232.37,
+          635.5
         ],
         [
           33,
-          388.4,
-          635.49
+          388.15,
+          635.5
         ]
       ],
       "all_cells_on_one_page": true
     }
   ],
-  "font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nBAAAAA+TimesNewRomanPS-BoldMT        TrueType          WinAnsi          yes yes yes    566  0\nCAAAAA+TimesNewRomanPSMT             TrueType          WinAnsi          yes yes yes    546  0\nDAAAAA+TimesNewRomanPSMT             TrueType          WinAnsi          yes yes yes    551  0\nEAAAAA+TimesNewRomanPSMT             TrueType          WinAnsi          yes yes yes    561  0\nFAAAAA+TimesNewRomanPS-BoldMT        TrueType          WinAnsi          yes yes yes    571  0\nGAAAAA+TimesNewRomanPSMT             TrueType          WinAnsi          yes yes yes    556  0",
-  "word_sha256": "78e64cdba071b85730ffdd11da397379bb91e3ac671e6f5d8cec12f4b599f72b",
-  "pdf_sha256": "64e92935d428a31e8b391468a02e08f7d6df5902bdc5b1c31cfba6c91b15bb9d",
+  "font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimesNewRomanPSMT                    TrueType          WinAnsi          no  no  no       5  0\nTimesNewRomanPS-BoldMT               CID TrueType      Identity-H       yes no  yes      9  0\nTimesNewRomanPS-BoldMT               TrueType          WinAnsi          no  no  no      14  0\nTimesNewRomanPSMT                    CID TrueType      Identity-H       yes no  yes     16  0\nArialMT                              TrueType          WinAnsi          no  no  no      98  0\nBCDEEE+Calibri-Light                 TrueType          WinAnsi          yes yes no     101  0",
+  "word_sha256": "46e176b8eb4f077b91ddd376138c398b6900948cf24e01cb53f96b87a2cd4d6c",
+  "pdf_sha256": "f902f3a61618d9a3e114781d44fd1c9b1b6ed63bad9f6b0e0683bd052f5b41b6",
   "original_title_template_sha256": "a6a7fc9e6e978490845db7a4dc077ed6fe29679318e59c2abc0b980e8907944b",
-  "limits": "Pagination verified in the named LibreOffice renderer. Word may repaginate when edited or opened with different fonts."
+  "limits": "Pagination verified in the named renderer. Word may repaginate when edited or opened with different fonts."
 }

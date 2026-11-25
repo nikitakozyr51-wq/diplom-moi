@@ -21,3 +21,4 @@
 19. Alamoush A. S., Ölçer A. I. Maritime Autonomous Surface Ships: Architecture for Autonomous Navigation Systems // Journal of Marine Science and Engineering. – 2025. – Vol. 13, no. 1. – Art. 122. – DOI: 10.3390/jmse13010122. – URL: <https://www.mdpi.com/2077-1312/13/1/122> (дата обращения: 09.10.2026).
 20. Международная морская организация. Введение в ИМО [Электронный ресурс]. – URL: <https://www.imo.org/ru/About/Pages/Default.aspx> (дата обращения: 11.10.2026).
 21. Fossen T. I. Python Vehicle Simulator : README и исходный код [Электронный ресурс]. – Версия a93d1938ba1f, 26.09.2026. – URL: <https://github.com/cybergalactic/PythonVehicleSimulator/tree/a93d1938ba1f78f2580c24c73f003091b2f03cd0> (дата обращения: 11.10.2026).
+22. Об утверждении Правил управления автономными судами : приказ Минтранса России от 22.04.2024 № 140. – URL: <https://publication.pravo.gov.ru/document/0001202405310083> (дата обращения к тексту: 25.11.2026).

@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "body_words": 6652,
+  "body_words": 7178,
   "subsections": [
     "1.1",
     "1.2",
@@ -9,22 +9,40 @@
     "1.5",
     "2.1",
     "2.2",
-    "2.3"
+    "2.3",
+    "2.4"
   ],
-  "references": 21,
-  "sources": 22,
-  "evidence_entries": 58,
+  "references": 22,
+  "sources": 23,
+  "evidence_entries": 62,
   "tables": 3,
   "pdf_preflights": 11,
-  "local_source_hashes_checked": 33,
+  "local_source_hashes_checked": 18,
   "course_excerpts_checked": 12,
-  "local_sources_unavailable": [],
-  "rendered_pages": 36,
+  "local_sources_unavailable": [
+    "literature/raw/imo-autonomous-shipping-browser.txt",
+    "literature/raw/sitronics-demo-6966-article.txt",
+    "literature/raw/sitronics-ferry-15592-article.txt",
+    "literature/raw/sitronics-certificates-15295-article.txt",
+    "literature/raw/sitronics-boat-18730-article.txt",
+    "literature/raw/sitronics-boat-18730.html",
+    "literature/raw/sitronics-demo-6966.html",
+    "literature/raw/sitronics-ferry-15592.html",
+    "literature/raw/sitronics-certificates-15295.html",
+    "literature/raw/fossen-marine-model.txt",
+    "literature/raw/uscg-rules-page.html",
+    "literature/raw/uscg-rules-page.txt",
+    "literature/raw/architecture-2025.html",
+    "literature/raw/architecture-2025.txt",
+    "literature/raw/imo-russian-about.txt",
+    "literature/raw/pvs-commit.json"
+  ],
+  "rendered_pages": 38,
   "contents_page": 2,
   "artifact_hashes": {
-    "drafts/working-draft.md": "b279c74091e898ee35fb19749b306d612307e2c267ec010250be4376ac5d17ef",
-    "drafts/working-draft.docx": "78e64cdba071b85730ffdd11da397379bb91e3ac671e6f5d8cec12f4b599f72b",
-    "plan.md": "fc60dff9f1635b18a9e8b2773651b9497b1144cf02772325b1dcc0e775d6e241",
+    "drafts/working-draft.md": "020f6097c13e841b0c3ab9842c2766f1b5e6a9f0b27f2ee4fe3e4faab6fac2fb",
+    "drafts/working-draft.docx": "46e176b8eb4f077b91ddd376138c398b6900948cf24e01cb53f96b87a2cd4d6c",
+    "plan.md": "0e286c276739ce71d491c57dc4a9a113f98633687b16240e2dae3a14a88ada8f",
     "plan.docx": "9de350a4ed8ec78230e08fa1f88344dd78ff158bb39e06829aff5086ded86084"
   },
   "checked": "Word container and basic structural formatting; current subsection and citation correspondence; source identities, local source hashes and new course excerpt anchors when available",
@@ -32,7 +50,7 @@
     "Complete final thesis and department-specific acceptance",
     "Unwritten comparative results",
     "Publication authorship and date of course PDFs",
-    "Primary Russian rules, ship certificates and independent trial protocols"
+    "Full Russian regulatory framework, ship certificates and independent trial protocols"
   ],
   "errors": []
 }

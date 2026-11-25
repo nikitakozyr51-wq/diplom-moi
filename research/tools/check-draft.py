@@ -49,7 +49,7 @@ def near(a, b, tolerance=3):
 
 md_path = ROOT / 'drafts/working-draft.md'
 docx_path = ROOT / 'drafts/working-draft.docx'
-text = md_path.read_text()
+text = md_path.read_text(encoding='utf-8')
 body, marker, bibliography = text.partition('# Список использованных источников')
 require(bool(marker), 'Missing bibliography heading in Markdown')
 references = [int(x) for x in re.findall(r'(?m)^(\d+)\. ', bibliography)]
@@ -69,7 +69,7 @@ for row in evidence:
     for sid in re.findall(r'S\d{3}', row['source_id']):
         require(sid in source_ids, f"Unknown source in {row['claim_id']}: {sid}")
 
-manifest = json.loads((ROOT / 'literature/file-manifest.json').read_text())
+manifest = json.loads((ROOT / 'literature/file-manifest.json').read_text(encoding='utf-8'))
 require(source_ids <= {r.get('source_id') for r in manifest}, 'Source missing from provenance manifest')
 local_missing = []
 hashes_checked = 0
@@ -86,7 +86,7 @@ if args.require_local_sources:
 preflights = list((ROOT / 'literature/pdf-preflight').glob('*.json'))
 require(len(preflights) == 11, 'Expected eleven structural PDF preflights')
 for path in preflights:
-    record = json.loads(path.read_text())
+    record = json.loads(path.read_text(encoding='utf-8'))
     require(record['verdict'] == 'PASS', 'PDF preflight is not PASS: ' + path.name)
     pdf = ROOT.parent / record['file']
     if pdf.exists():
@@ -104,7 +104,7 @@ for row in evidence:
     extracted = ROOT / f'literature/course/extracted/section-{section_num}.json'
     if not extracted.exists():
         continue
-    pages = json.loads(extracted.read_text())['pages']
+    pages = json.loads(extracted.read_text(encoding='utf-8'))['pages']
     match = re.search(r'с\.\s*(\d+)(?:–(\d+))?', row['page_or_locator'])
     require(bool(match), 'Missing page locator: ' + row['claim_id'])
     if not match:
@@ -177,9 +177,9 @@ require(any(p.text == 'СОДЕРЖАНИЕ' for p in doc.paragraphs), 'Missing 
 require(any(p.text == 'ВВЕДЕНИЕ' for p in doc.paragraphs), 'Missing introduction')
 require(doc.sections[0].different_first_page_header_footer, 'Title page needs a separate empty footer')
 require(not doc.sections[0].first_page_footer._element.xpath('.//w:fldSimple'), 'Number visible on title footer')
-contents = json.loads((ROOT / 'build/thesis-contents.json').read_text())
+contents = json.loads((ROOT / 'build/thesis-contents.json').read_text(encoding='utf-8'))
 planned_labels = []
-for line in (ROOT / 'contents-plan.md').read_text().splitlines():
+for line in (ROOT / 'contents-plan.md').read_text(encoding='utf-8').splitlines():
     label = line.removeprefix('## ').strip()
     if re.match(r'^\d[. ]', label) or label in ('Перечень сокращений', 'Введение', 'Заключение', 'Список использованных источников', 'Приложения (при необходимости)'):
         planned_labels.append(label)
@@ -190,7 +190,7 @@ require(all(e['page'] is None for e in contents if not e['written']), 'Future se
 require('раздел в разработке' not in word_text.casefold(), 'Unwanted placeholder in manuscript')
 require('PDF-файл, предоставленный автором ВКР' not in word_text, 'Internal provenance note leaked into bibliography')
 pagination_path = ROOT / 'build/thesis-pagination-checks.json'
-pagination = json.loads(pagination_path.read_text()) if pagination_path.exists() else {}
+pagination = json.loads(pagination_path.read_text(encoding='utf-8')) if pagination_path.exists() else {}
 require(pagination.get('status') == 'passed', 'Missing successful pagination check')
 require(pagination.get('word_sha256') == digest(docx_path), 'Pagination report does not match Word')
 require(pagination.get('pdf_sha256') == digest(docx_path.with_suffix('.pdf')), 'Pagination report does not match PDF')
@@ -204,12 +204,12 @@ result = {
     'pdf_preflights': len(preflights), 'local_source_hashes_checked': hashes_checked,
     'course_excerpts_checked': excerpt_checks, 'local_sources_unavailable': local_missing,
     'rendered_pages': pagination.get('pages'), 'contents_page': pagination.get('contents_page'),
-    'artifact_hashes': {str(p.relative_to(ROOT)): digest(p) for p in [md_path, docx_path, ROOT / 'plan.md', ROOT / 'plan.docx']},
+    'artifact_hashes': {p.relative_to(ROOT).as_posix(): digest(p) for p in [md_path, docx_path, ROOT / 'plan.md', ROOT / 'plan.docx']},
     'checked': 'Word container and basic structural formatting; current subsection and citation correspondence; source identities, local source hashes and new course excerpt anchors when available',
-    'not_checked': ['Complete final thesis and department-specific acceptance', 'Unwritten comparative results', 'Publication authorship and date of course PDFs', 'Primary Russian rules, ship certificates and independent trial protocols'],
+    'not_checked': ['Complete final thesis and department-specific acceptance', 'Unwritten comparative results', 'Publication authorship and date of course PDFs', 'Full Russian regulatory framework, ship certificates and independent trial protocols'],
     'errors': errors,
 }
 dest = ROOT / 'build/working-draft-checks.json'
-dest.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n')
+dest.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 print(json.dumps(result, ensure_ascii=False, indent=2))
 raise SystemExit(1 if errors else 0)

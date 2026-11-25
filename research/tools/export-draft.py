@@ -46,7 +46,12 @@ if marker:
     text = body + marker + references
 export_input = build / (args.input.stem + '-word.md')
 export_input.write_text(text, encoding='utf-8')
-subprocess.run(['pandoc', str(export_input),
+from shutil import which
+pandoc = which('pandoc')
+if not pandoc:
+    from pypandoc import get_pandoc_path
+    pandoc = get_pandoc_path()
+subprocess.run([pandoc, str(export_input),
                 '--reference-doc', str(build / 'draft-reference.docx'),
                 '--from', 'markdown', '--to', 'docx', '-o', str(output)], check=True)
 doc = Document(output)
