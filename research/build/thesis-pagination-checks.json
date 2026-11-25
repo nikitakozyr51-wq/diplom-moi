@@ -1,13 +1,13 @@
 {
   "status": "passed",
   "renderer": "Microsoft Word",
-  "pages": 42,
+  "pages": 41,
   "contents_page": 2,
   "title_page_number_visible": false,
   "contents_page_count": 2,
   "planned_entries": 26,
   "written_entries": 16,
-  "page_numbers": "2 through 42",
+  "page_numbers": "2 through 41",
   "contents": [
     {
       "heading": "ПЕРЕЧЕНЬ СОКРАЩЕНИЙ",
@@ -63,7 +63,7 @@
       "bookmark": "VKRSection6",
       "level": 2,
       "written": true,
-      "page": 25
+      "page": 24
     },
     {
       "heading": "1.5 Международные требования к безопасности автономного судовождения",
@@ -79,7 +79,7 @@
       "bookmark": "VKRSection8",
       "level": 1,
       "written": true,
-      "page": 31
+      "page": 30
     },
     {
       "heading": "2.1 Развитие автономного судовождения в России и основные проекты",
@@ -87,7 +87,7 @@
       "bookmark": "VKRSection9",
       "level": 2,
       "written": true,
-      "page": 31
+      "page": 30
     },
     {
       "heading": "2.2 Российские технические решения и реализованные навигационные функции",
@@ -95,7 +95,7 @@
       "bookmark": "VKRSection10",
       "level": 2,
       "written": true,
-      "page": 32
+      "page": 31
     },
     {
       "heading": "2.3 Испытания и эксплуатация российских систем: результаты и ограничения",
@@ -103,7 +103,7 @@
       "bookmark": "VKRSection11",
       "level": 2,
       "written": true,
-      "page": 33
+      "page": 32
     },
     {
       "heading": "2.4 Нормативные и организационные условия применения автономного судовождения в России",
@@ -111,7 +111,7 @@
       "bookmark": "VKRSection12",
       "level": 2,
       "written": true,
-      "page": 34
+      "page": 33
     },
     {
       "heading": "3 АНАЛИЗ ПРИМЕНИМОСТИ ТЕХНОЛОГИЙ АВТОНОМНОГО СУДОВОЖДЕНИЯ ПРИ ПЛАВАНИИ В УЗКОСТЯХ",
@@ -119,7 +119,7 @@
       "bookmark": "VKRSection13",
       "level": 1,
       "written": true,
-      "page": 37
+      "page": 36
     },
     {
       "heading": "3.1 Зарубежный опыт решения навигационных задач автономного судовождения на примере японских проектов",
@@ -127,7 +127,7 @@
       "bookmark": "VKRSection14",
       "level": 2,
       "written": true,
-      "page": 37
+      "page": 36
     },
     {
       "heading": "3.2 Сопоставление российских и зарубежных решений и оценка качества обнаружения препятствий",
@@ -207,7 +207,7 @@
       "bookmark": "VKRSection15",
       "level": 1,
       "written": true,
-      "page": 39
+      "page": 38
     },
     {
       "heading": "Приложения (при необходимости)",
@@ -256,17 +256,17 @@
         [
           23,
           90.74,
-          594.47
+          763.55
         ],
         [
           23,
           209.69,
-          594.47
+          763.55
         ],
         [
           23,
           373.99,
-          594.47
+          763.55
         ]
       ],
       "all_cells_on_one_page": true
@@ -277,20 +277,20 @@
         "Операция",
         "Роль человека"
       ],
-      "page": 34,
+      "page": 33,
       "coordinates": [
         [
-          34,
+          33,
           90.74,
           666.95
         ],
         [
-          34,
+          33,
           232.37,
           666.95
         ],
         [
-          34,
+          33,
           388.15,
           666.95
         ]
@@ -298,9 +298,9 @@
       "all_cells_on_one_page": true
     }
   ],
-  "font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimesNewRomanPSMT                    TrueType          WinAnsi          no  no  no       5  0\nTimesNewRomanPS-BoldMT               CID TrueType      Identity-H       yes no  yes      9  0\nTimesNewRomanPS-BoldMT               TrueType          WinAnsi          no  no  no      14  0\nTimesNewRomanPSMT                    CID TrueType      Identity-H       yes no  yes     16  0\nArialMT                              TrueType          WinAnsi          no  no  no     107  0\nBCDEEE+Calibri-Light                 TrueType          WinAnsi          yes yes no     110  0",
-  "word_sha256": "d0d63d686c7e05997ac7433ed2c0479aafcf04daa6aabd63cbfa6723d19842f3",
-  "pdf_sha256": "047bf7902280b5b2f1b2d414b8c22762a3aaab8d5285868e225a5b8d691c7045",
+  "font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimesNewRomanPSMT                    TrueType          WinAnsi          no  no  no       5  0\nTimesNewRomanPS-BoldMT               CID TrueType      Identity-H       yes no  yes      9  0\nTimesNewRomanPS-BoldMT               TrueType          WinAnsi          no  no  no      14  0\nTimesNewRomanPSMT                    CID TrueType      Identity-H       yes no  yes     16  0\nArialMT                              TrueType          WinAnsi          no  no  no     105  0\nBCDEEE+Calibri-Light                 TrueType          WinAnsi          yes yes no     109  0",
+  "word_sha256": "7ac7f8f8dc20b59119ed4906dcee51c1a1ac75fe8e63809c657794781bb20428",
+  "pdf_sha256": "97828f95fc8ce35a21075d471de492fca66edd13b9652cc606bfa3c41beb5a94",
   "original_title_template_sha256": "a6a7fc9e6e978490845db7a4dc077ed6fe29679318e59c2abc0b980e8907944b",
   "limits": "Pagination verified in the named renderer. Word may repaginate when edited or opened with different fonts."
 }
