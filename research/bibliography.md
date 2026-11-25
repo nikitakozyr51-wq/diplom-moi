@@ -26,3 +26,7 @@
 24. Teršek M., Žust L., Kristan M. eWaSR: An Embedded-Compute-Ready Maritime Obstacle Detection Network. – 2023. – URL: <https://doi.org/10.3390/s23125386> (дата обращения: 26.11.2026).
 25. NYK, MTI NYK to Conduct Test of New Lookout Support System for Vessels. – 2021. – URL: <https://www.nyk.com/english/news/2021/20210908_01.html> (дата обращения: 26.11.2026).
 26. Mitsui O.S.K. Lines MOL and Partners Set World Records for Time and Distance in Autonomous Navigation with Sea Trial Using Large Commercial Car Ferry. – 2022. – URL: <https://www.mol.co.jp/en/pr/2022/22017.html> (дата обращения: 26.11.2026).
+27. Российская Федерация. Results of Maritime Autonomous Surface Ships (MASS) trials conducted in the Russian Federation in 2021. – MSC 105/INF.12. – URL: <https://www.a-nav.org/doc/MSC%20105-INF.12.pdf> (дата обращения: 26.11.2026).
+28. ФГУП «Росморпорт». Паром «Маршал Рокоссовский» подтвердил категорию полуавтономного судна. – 03.02.2025. – URL: <https://www.rosmorport.ru/news/company/57070/> (дата обращения: 26.11.2026).
+29. Российский морской регистр судоходства. РС провел освидетельствование парома «Генерал Черняховский». – 29.10.2026. – URL: <https://rs-class.org/news/general/rs-provel-osvidetelstvovanie-paroma-general-chernyakhovskiy29-10-2026/> (дата обращения: 26.11.2026).
+30. Sitronics KT. Компания Sitronics KT успешно провела ходовые испытания нового безэкипажного катера «Странник 575». – 09.09.2026. – URL: <https://sitronics-kt.ru/news/597792/> (дата обращения: 26.11.2026).

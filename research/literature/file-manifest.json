@@ -228,5 +228,35 @@
     "path": "literature/raw/qwen-3b.md",
     "bytes": 4867,
     "sha256": "934bca6ff3ca27481c49b52a2d3138f6f58b8a64f016fd461bc11fad8963eee5"
+  },
+  {
+    "source_id": "S029",
+    "path": "literature/raw/S029-verification.txt",
+    "bytes": 572,
+    "sha256": "53fd2b74360a8d4c37825213b68631f754175a5fe2362e2f6172a49800010e0c"
+  },
+  {
+    "source_id": "S030",
+    "path": "literature/raw/S030-verification.txt",
+    "bytes": 497,
+    "sha256": "d161f8cc46047ab1d3fb3b532ed81e330dcebe0b24c2ea72488ce39ca0957957"
+  },
+  {
+    "source_id": "S031",
+    "path": "literature/raw/S031-verification.txt",
+    "bytes": 585,
+    "sha256": "15959b6dd09331e47267f010ffe87a2db4c920950c4590576bf7ebf493adf375"
+  },
+  {
+    "source_id": "S032",
+    "path": "literature/raw/S032-verification.txt",
+    "bytes": 602,
+    "sha256": "3b25fc6c4c32098989eaf61a0fe6d0628357e311867b0a11ea51b4e617a889cf"
+  },
+  {
+    "source_id": "S029",
+    "path": "literature/raw/msc105-inf12.pdf",
+    "bytes": 323961,
+    "sha256": "cab66cd491e751083d3c334cb70ab16fd3c984700744758003ba06840e468b1d"
   }
 ]

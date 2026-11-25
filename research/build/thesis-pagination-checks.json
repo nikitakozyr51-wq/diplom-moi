@@ -1,13 +1,13 @@
 {
   "status": "passed",
   "renderer": "Microsoft Word",
-  "pages": 42,
+  "pages": 44,
   "contents_page": 2,
   "title_page_number_visible": false,
   "contents_page_count": 2,
   "planned_entries": 26,
   "written_entries": 16,
-  "page_numbers": "2 through 42",
+  "page_numbers": "2 through 44",
   "contents": [
     {
       "heading": "ПЕРЕЧЕНЬ СОКРАЩЕНИЙ",
@@ -95,7 +95,7 @@
       "bookmark": "VKRSection10",
       "level": 2,
       "written": true,
-      "page": 32
+      "page": 33
     },
     {
       "heading": "2.3 Испытания и эксплуатация российских систем: результаты и ограничения",
@@ -103,7 +103,7 @@
       "bookmark": "VKRSection11",
       "level": 2,
       "written": true,
-      "page": 33
+      "page": 35
     },
     {
       "heading": "2.4 Нормативные и организационные условия применения автономного судовождения в России",
@@ -111,7 +111,7 @@
       "bookmark": "VKRSection12",
       "level": 2,
       "written": true,
-      "page": 34
+      "page": 36
     },
     {
       "heading": "3 АНАЛИЗ ПРИМЕНИМОСТИ ТЕХНОЛОГИЙ АВТОНОМНОГО СУДОВОЖДЕНИЯ ПРИ ПЛАВАНИИ В УЗКОСТЯХ",
@@ -119,7 +119,7 @@
       "bookmark": "VKRSection13",
       "level": 1,
       "written": true,
-      "page": 37
+      "page": 39
     },
     {
       "heading": "3.1 Зарубежный опыт решения навигационных задач автономного судовождения на примере японских проектов",
@@ -127,7 +127,7 @@
       "bookmark": "VKRSection14",
       "level": 2,
       "written": true,
-      "page": 37
+      "page": 39
     },
     {
       "heading": "3.2 Сопоставление российских и зарубежных решений и оценка качества обнаружения препятствий",
@@ -207,7 +207,7 @@
       "bookmark": "VKRSection15",
       "level": 1,
       "written": true,
-      "page": 39
+      "page": 41
     },
     {
       "heading": "Приложения (при необходимости)",
@@ -277,30 +277,30 @@
         "Что описано источником",
         "Что необходимо проверить для узкости"
       ],
-      "page": 34,
+      "page": 35,
       "coordinates": [
         [
-          34,
+          35,
           90.74,
-          646.19
+          519.44
         ],
         [
-          34,
+          35,
           232.37,
-          646.19
+          519.44
         ],
         [
-          34,
+          35,
           388.15,
-          646.19
+          519.44
         ]
       ],
       "all_cells_on_one_page": true
     }
   ],
-  "font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimesNewRomanPSMT                    TrueType          WinAnsi          no  no  no       5  0\nTimesNewRomanPS-BoldMT               CID TrueType      Identity-H       yes no  yes      9  0\nTimesNewRomanPS-BoldMT               TrueType          WinAnsi          no  no  no      14  0\nTimesNewRomanPSMT                    CID TrueType      Identity-H       yes no  yes     16  0\nArialMT                              TrueType          WinAnsi          no  no  no     107  0\nBCDEEE+Calibri-Light                 TrueType          WinAnsi          yes yes no     110  0",
-  "word_sha256": "d3e552e193c7fb9597b1a837bce3d953bd9ab8cb9906ff594cd32367a3b125b0",
-  "pdf_sha256": "ffd3203794a3297818bc1c86978ecdc9c3b26fd6ba058040f76ddebb78cf0606",
+  "font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimesNewRomanPSMT                    TrueType          WinAnsi          no  no  no       5  0\nTimesNewRomanPS-BoldMT               CID TrueType      Identity-H       yes no  yes      9  0\nTimesNewRomanPS-BoldMT               TrueType          WinAnsi          no  no  no      14  0\nTimesNewRomanPSMT                    CID TrueType      Identity-H       yes no  yes     16  0\nArialMT                              TrueType          WinAnsi          no  no  no     109  0\nBCDEEE+Calibri-Light                 TrueType          WinAnsi          yes yes no     112  0",
+  "word_sha256": "53597b4bc37cd4d0658e27b2ca62458a565302c652632ce855426532d5a58239",
+  "pdf_sha256": "4d95330ec221be8ce9e73b8f70dcec35d4705f63bee6a615f2c32a2db6cf77f5",
   "original_title_template_sha256": "a6a7fc9e6e978490845db7a4dc077ed6fe29679318e59c2abc0b980e8907944b",
   "limits": "Pagination verified in the named renderer. Word may repaginate when edited or opened with different fonts."
 }
