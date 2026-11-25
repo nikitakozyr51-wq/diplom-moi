@@ -22,3 +22,7 @@
 20. Международная морская организация. Введение в ИМО [Электронный ресурс]. – URL: <https://www.imo.org/ru/About/Pages/Default.aspx> (дата обращения: 11.10.2026).
 21. Fossen T. I. Python Vehicle Simulator : README и исходный код [Электронный ресурс]. – Версия a93d1938ba1f, 26.09.2026. – URL: <https://github.com/cybergalactic/PythonVehicleSimulator/tree/a93d1938ba1f78f2580c24c73f003091b2f03cd0> (дата обращения: 11.10.2026).
 22. Об утверждении Правил управления автономными судами : приказ Минтранса России от 22.04.2024 № 140. – URL: <https://publication.pravo.gov.ru/document/0001202405310083> (дата обращения к тексту: 25.11.2026).
+23. Žust L., Kristan M. Learning Maritime Obstacle Detection from Weak Annotations by Scaffolding. – 2022. – URL: <https://openaccess.thecvf.com/content/WACV2022/papers/Zust_Learning_Maritime_Obstacle_Detection_From_Weak_Annotations_by_Scaffolding_WACV_2022_paper.pdf> (дата обращения: 26.11.2026).
+24. Teršek M., Žust L., Kristan M. eWaSR: An Embedded-Compute-Ready Maritime Obstacle Detection Network. – 2023. – URL: <https://doi.org/10.3390/s23125386> (дата обращения: 26.11.2026).
+25. NYK, MTI NYK to Conduct Test of New Lookout Support System for Vessels. – 2021. – URL: <https://www.nyk.com/english/news/2021/20210908_01.html> (дата обращения: 26.11.2026).
+26. Mitsui O.S.K. Lines MOL and Partners Set World Records for Time and Distance in Autonomous Navigation with Sea Trial Using Large Commercial Car Ferry. – 2022. – URL: <https://www.mol.co.jp/en/pr/2022/22017.html> (дата обращения: 26.11.2026).

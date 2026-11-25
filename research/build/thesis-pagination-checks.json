@@ -1,13 +1,13 @@
 {
   "status": "passed",
   "renderer": "Microsoft Word",
-  "pages": 38,
+  "pages": 42,
   "contents_page": 2,
   "title_page_number_visible": false,
   "contents_page_count": 2,
   "planned_entries": 26,
-  "written_entries": 14,
-  "page_numbers": "2 through 38",
+  "written_entries": 16,
+  "page_numbers": "2 through 42",
   "contents": [
     {
       "heading": "ПЕРЕЧЕНЬ СОКРАЩЕНИЙ",
@@ -50,8 +50,8 @@
       "page": 11
     },
     {
-      "heading": "1.3 Технические средства и принципы работы автономной системы судовождения",
-      "label": "1.3 Технические средства и принципы работы автономной системы судовождения",
+      "heading": "1.3 Устройство автономной системы судовождения и применение нейросетей для обнаружения препятствий",
+      "label": "1.3 Устройство автономной системы судовождения и применение нейросетей для обнаружения препятствий",
       "bookmark": "VKRSection5",
       "level": 2,
       "written": true,
@@ -63,7 +63,7 @@
       "bookmark": "VKRSection6",
       "level": 2,
       "written": true,
-      "page": 24
+      "page": 25
     },
     {
       "heading": "1.5 Международные требования к безопасности автономного судовождения",
@@ -71,7 +71,7 @@
       "bookmark": "VKRSection7",
       "level": 2,
       "written": true,
-      "page": 26
+      "page": 27
     },
     {
       "heading": "2 РОССИЙСКИЙ ОПЫТ РАЗРАБОТКИ И ПРИМЕНЕНИЯ ТЕХНОЛОГИЙ АВТОНОМНОГО СУДОВОЖДЕНИЯ",
@@ -79,7 +79,7 @@
       "bookmark": "VKRSection8",
       "level": 1,
       "written": true,
-      "page": 30
+      "page": 31
     },
     {
       "heading": "2.1 Развитие автономного судовождения в России и основные проекты",
@@ -87,7 +87,7 @@
       "bookmark": "VKRSection9",
       "level": 2,
       "written": true,
-      "page": 30
+      "page": 31
     },
     {
       "heading": "2.2 Российские технические решения и реализованные навигационные функции",
@@ -95,7 +95,7 @@
       "bookmark": "VKRSection10",
       "level": 2,
       "written": true,
-      "page": 31
+      "page": 32
     },
     {
       "heading": "2.3 Испытания и эксплуатация российских систем: результаты и ограничения",
@@ -103,7 +103,7 @@
       "bookmark": "VKRSection11",
       "level": 2,
       "written": true,
-      "page": 32
+      "page": 33
     },
     {
       "heading": "2.4 Нормативные и организационные условия применения автономного судовождения в России",
@@ -111,27 +111,27 @@
       "bookmark": "VKRSection12",
       "level": 2,
       "written": true,
-      "page": 33
+      "page": 34
     },
     {
-      "heading": "3 Анализ применимости технологий автономного судовождения при плавании в узкостях",
+      "heading": "3 АНАЛИЗ ПРИМЕНИМОСТИ ТЕХНОЛОГИЙ АВТОНОМНОГО СУДОВОЖДЕНИЯ ПРИ ПЛАВАНИИ В УЗКОСТЯХ",
       "label": "3 Анализ применимости технологий автономного судовождения при плавании в узкостях",
-      "bookmark": null,
+      "bookmark": "VKRSection13",
       "level": 1,
-      "written": false,
-      "page": null
+      "written": true,
+      "page": 37
     },
     {
       "heading": "3.1 Зарубежный опыт решения навигационных задач автономного судовождения на примере японских проектов",
       "label": "3.1 Зарубежный опыт решения навигационных задач автономного судовождения на примере японских проектов",
-      "bookmark": null,
+      "bookmark": "VKRSection14",
       "level": 2,
-      "written": false,
-      "page": null
+      "written": true,
+      "page": 37
     },
     {
-      "heading": "3.2 Критерии оценки и сопоставление российских и зарубежных решений",
-      "label": "3.2 Критерии оценки и сопоставление российских и зарубежных решений",
+      "heading": "3.2 Сопоставление российских и зарубежных решений и оценка качества обнаружения препятствий",
+      "label": "3.2 Сопоставление российских и зарубежных решений и оценка качества обнаружения препятствий",
       "bookmark": null,
       "level": 2,
       "written": false,
@@ -162,8 +162,8 @@
       "page": null
     },
     {
-      "heading": "4.1 Технические, нормативные и организационные условия внедрения",
-      "label": "4.1 Технические, нормативные и организационные условия внедрения",
+      "heading": "4.1 Условия внедрения автономных функций и перспективы локальных ИИ-помощников судоводителя",
+      "label": "4.1 Условия внедрения автономных функций и перспективы локальных ИИ-помощников судоводителя",
       "bookmark": null,
       "level": 2,
       "written": false,
@@ -204,10 +204,10 @@
     {
       "heading": "СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ",
       "label": "Список использованных источников",
-      "bookmark": "VKRSection13",
+      "bookmark": "VKRSection15",
       "level": 1,
       "written": true,
-      "page": 36
+      "page": 39
     },
     {
       "heading": "Приложения (при необходимости)",
@@ -230,17 +230,17 @@
         [
           9,
           90.74,
-          221.57
+          232.26
         ],
         [
           9,
           155.9,
-          221.57
+          232.26
         ],
         [
           9,
           320.11,
-          221.57
+          232.26
         ]
       ],
       "all_cells_on_one_page": true
@@ -251,22 +251,22 @@
         "Входные данные",
         "Обработка и выход"
       ],
-      "page": 22,
+      "page": 23,
       "coordinates": [
         [
-          22,
+          23,
           90.74,
-          583.78
+          594.47
         ],
         [
-          22,
+          23,
           209.69,
-          583.78
+          594.47
         ],
         [
-          22,
+          23,
           373.99,
-          583.78
+          594.47
         ]
       ],
       "all_cells_on_one_page": true
@@ -277,30 +277,30 @@
         "Что описано источником",
         "Что необходимо проверить для узкости"
       ],
-      "page": 33,
+      "page": 34,
       "coordinates": [
         [
-          33,
+          34,
           90.74,
-          635.5
+          646.19
         ],
         [
-          33,
+          34,
           232.37,
-          635.5
+          646.19
         ],
         [
-          33,
+          34,
           388.15,
-          635.5
+          646.19
         ]
       ],
       "all_cells_on_one_page": true
     }
   ],
-  "font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimesNewRomanPSMT                    TrueType          WinAnsi          no  no  no       5  0\nTimesNewRomanPS-BoldMT               CID TrueType      Identity-H       yes no  yes      9  0\nTimesNewRomanPS-BoldMT               TrueType          WinAnsi          no  no  no      14  0\nTimesNewRomanPSMT                    CID TrueType      Identity-H       yes no  yes     16  0\nArialMT                              TrueType          WinAnsi          no  no  no      98  0\nBCDEEE+Calibri-Light                 TrueType          WinAnsi          yes yes no     101  0",
-  "word_sha256": "46e176b8eb4f077b91ddd376138c398b6900948cf24e01cb53f96b87a2cd4d6c",
-  "pdf_sha256": "f902f3a61618d9a3e114781d44fd1c9b1b6ed63bad9f6b0e0683bd052f5b41b6",
+  "font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimesNewRomanPSMT                    TrueType          WinAnsi          no  no  no       5  0\nTimesNewRomanPS-BoldMT               CID TrueType      Identity-H       yes no  yes      9  0\nTimesNewRomanPS-BoldMT               TrueType          WinAnsi          no  no  no      14  0\nTimesNewRomanPSMT                    CID TrueType      Identity-H       yes no  yes     16  0\nArialMT                              TrueType          WinAnsi          no  no  no     107  0\nBCDEEE+Calibri-Light                 TrueType          WinAnsi          yes yes no     110  0",
+  "word_sha256": "d3e552e193c7fb9597b1a837bce3d953bd9ab8cb9906ff594cd32367a3b125b0",
+  "pdf_sha256": "ffd3203794a3297818bc1c86978ecdc9c3b26fd6ba058040f76ddebb78cf0606",
   "original_title_template_sha256": "a6a7fc9e6e978490845db7a4dc077ed6fe29679318e59c2abc0b980e8907944b",
   "limits": "Pagination verified in the named renderer. Word may repaginate when edited or opened with different fonts."
 }

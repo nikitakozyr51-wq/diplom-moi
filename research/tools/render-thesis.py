@@ -83,19 +83,19 @@ for entry in expected:
 table_checks = []
 for table in Document(args.docx).tables:
     headers = [cell.text for cell in table.rows[0].cells]
-    locations = [[] for _ in headers]
-    for page_number, page in enumerate(pdf_pages, 1):
-        def visit_header(value, cm, tm, font, size):
-            clean = norm(value)
-            for index, header in enumerate(headers):
-                target = norm(header)
-                matches = clean == target if len(target) <= 15 else clean.startswith(target[:15])
-                if clean and matches:
-                    locations[index].append((page_number, round(tm[4], 2), round(tm[5], 2)))
-        page.extract_text(visitor_text=visit_header)
-    assert all(locations), 'Missing rendered table headers: ' + str(headers)
-    first = [column[0] for column in locations]
-    assert len({point[0] for point in first}) == 1, 'Table headers split across pages'
+    # Word PDFs can split a single header into several positioned text runs.
+    # Locate the full headings on their common page, including wrapped lines.
+    import fitz
+    with fitz.open(pdf) as rendered:
+        header_rows = []
+        for page_number, page in enumerate(rendered, 1):
+            positions = [page.search_for(header) for header in headers]
+            if all(positions):
+                header_rows.append([(page_number, round(rects[0].x0, 2),
+                                     round(page.rect.height - rects[0].y0, 2))
+                                    for rects in positions])
+    assert len(header_rows) == 1, 'Cannot locate unique table header row: ' + str(headers)
+    first = header_rows[0]
     assert max(point[2] for point in first) - min(point[2] for point in first) < 1, 'Table headers are not on one row'
     assert all(b[1] > a[1] + 30 for a, b in zip(first, first[1:])), 'Table columns not rendered separately'
     table_page = norm(pages[first[0][0] - 1])

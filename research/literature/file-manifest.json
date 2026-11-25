@@ -198,5 +198,35 @@
     "path": "literature/raw/mintrans-140.pdf",
     "bytes": 361415,
     "sha256": "c20eb5ad7f7950650549222158b41d48682423c8ba615ce178f062f9c5dd851c"
+  },
+  {
+    "source_id": "S024",
+    "path": "literature/raw/wasr-training.pdf",
+    "bytes": 3981391,
+    "sha256": "08aa19914148e8deda64691faf95977eb8233152730e06ba694fa6bebb21dc98"
+  },
+  {
+    "source_id": "S025",
+    "path": "literature/raw/ewasr-note.txt",
+    "bytes": 289,
+    "sha256": "822e385e2bfcf2393493b0f62b841a465245440157d7c73d610eb0286b3d986a"
+  },
+  {
+    "source_id": "S026",
+    "path": "literature/raw/nyk-lookout-note.txt",
+    "bytes": 354,
+    "sha256": "7c5cc351191101f6a2c07a5ce6790c8a16bb89ed1b179865010599fa2868cf73"
+  },
+  {
+    "source_id": "S027",
+    "path": "literature/raw/mol-ferry.html",
+    "bytes": 26084,
+    "sha256": "558f3091dceff97c459294b6d607463a4f85b24b72969c83c290c7482dff107d"
+  },
+  {
+    "source_id": "S028",
+    "path": "literature/raw/qwen-3b.md",
+    "bytes": 4867,
+    "sha256": "934bca6ff3ca27481c49b52a2d3138f6f58b8a64f016fd461bc11fad8963eee5"
   }
 ]
