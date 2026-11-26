@@ -1,13 +1,13 @@
 {
   "status": "passed",
   "renderer": "Microsoft Word",
-  "pages": 66,
+  "pages": 65,
   "contents_page": 2,
   "title_page_number_visible": false,
   "contents_page_count": 2,
   "planned_entries": 25,
   "written_entries": 25,
-  "page_numbers": "2 through 66",
+  "page_numbers": "2 through 65",
   "contents": [
     {
       "heading": "ПЕРЕЧЕНЬ СОКРАЩЕНИЙ",
@@ -159,7 +159,7 @@
       "bookmark": "VKRSection18",
       "level": 1,
       "written": true,
-      "page": 47
+      "page": 46
     },
     {
       "heading": "4.1 Условия применения технологий автономного судовождения на морском флоте",
@@ -167,7 +167,7 @@
       "bookmark": "VKRSection19",
       "level": 2,
       "written": true,
-      "page": 47
+      "page": 46
     },
     {
       "heading": "4.2 Перспективы перехода от традиционного к автономному судовождению и изменение роли экипажа",
@@ -175,7 +175,7 @@
       "bookmark": "VKRSection20",
       "level": 2,
       "written": true,
-      "page": 50
+      "page": 49
     },
     {
       "heading": "4.3 Возможная последовательность внедрения автономных функций на российском морском флоте",
@@ -183,7 +183,7 @@
       "bookmark": "VKRSection21",
       "level": 2,
       "written": true,
-      "page": 53
+      "page": 52
     },
     {
       "heading": "4.4 Применение результатов анализа к отдельному району плавания",
@@ -191,7 +191,7 @@
       "bookmark": "VKRSection22",
       "level": 2,
       "written": true,
-      "page": 55
+      "page": 54
     },
     {
       "heading": "ЗАКЛЮЧЕНИЕ",
@@ -199,7 +199,7 @@
       "bookmark": "VKRSection23",
       "level": 1,
       "written": true,
-      "page": 59
+      "page": 58
     },
     {
       "heading": "СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ",
@@ -207,7 +207,7 @@
       "bookmark": "VKRSection24",
       "level": 1,
       "written": true,
-      "page": 62
+      "page": 61
     }
   ],
   "table_headers": [
@@ -342,9 +342,9 @@
       "all_cells_on_one_page": true
     }
   ],
-  "font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimesNewRomanPSMT                    TrueType          WinAnsi          no  no  no       5  0\nTimesNewRomanPS-BoldMT               CID TrueType      Identity-H       yes no  yes      9  0\nTimesNewRomanPS-BoldMT               TrueType          WinAnsi          no  no  no      14  0\nTimesNewRomanPSMT                    CID TrueType      Identity-H       yes no  yes     16  0\nArialMT                              TrueType          WinAnsi          no  no  no     153  0\nBCDEEE+Calibri-Light                 TrueType          WinAnsi          yes yes no     157  0",
-  "word_sha256": "0833dc5f9c5c38e9f80b0260daf95d43702572cbd59e2f36481da8feb443e84e",
-  "pdf_sha256": "60a5771939408e3f5465241755b8ddfe01a86d3a7704eb95c8ad927e414230dd",
+  "font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimesNewRomanPSMT                    TrueType          WinAnsi          no  no  no       5  0\nTimesNewRomanPS-BoldMT               CID TrueType      Identity-H       yes no  yes      9  0\nTimesNewRomanPS-BoldMT               TrueType          WinAnsi          no  no  no      14  0\nTimesNewRomanPSMT                    CID TrueType      Identity-H       yes no  yes     16  0\nArialMT                              TrueType          WinAnsi          no  no  no     152  0\nBCDEEE+Calibri-Light                 TrueType          WinAnsi          yes yes no     156  0",
+  "word_sha256": "6178fa0b10631a0b2a831bcb9c33d094a428546812c3d8f4e45d2fd7e04d3fd3",
+  "pdf_sha256": "e0550c243a18a9f72e855ee8a27073522074091b023114852efd93929589a2ac",
   "original_title_template_sha256": "a6a7fc9e6e978490845db7a4dc077ed6fe29679318e59c2abc0b980e8907944b",
   "limits": "Pagination verified in the named renderer. Word may repaginate when edited or opened with different fonts."
 }
