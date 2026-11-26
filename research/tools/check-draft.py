@@ -206,7 +206,7 @@ result = {
     'rendered_pages': pagination.get('pages'), 'contents_page': pagination.get('contents_page'),
     'artifact_hashes': {p.relative_to(ROOT).as_posix(): digest(p) for p in [md_path, docx_path, ROOT / 'plan.md', ROOT / 'plan.docx']},
     'checked': 'Word container and basic structural formatting; current subsection and citation correspondence; source identities, local source hashes and new course excerpt anchors when available',
-    'not_checked': ['Complete final thesis and department-specific acceptance', 'Unwritten comparative results', 'Publication authorship and date of course PDFs', 'Full Russian regulatory framework, ship certificates and independent trial protocols'],
+    'not_checked': ['Department-specific acceptance and official originality assessment', 'Publication authorship and date of course PDFs', 'Full Russian regulatory framework, ship certificates and independent trial protocols'],
     'errors': errors,
 }
 dest = ROOT / 'build/working-draft-checks.json'

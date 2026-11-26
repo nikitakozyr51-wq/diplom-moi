@@ -117,6 +117,7 @@ abbreviations = [
     ('САРП', 'средства автоматической радиолокационной прокладки'),
     ('АИС', 'автоматическая идентификационная система'),
     ('ЭКНИС', 'электронная картографическая навигационно-информационная система'),
+    ('СУДС', 'система управления движением судов'),
     ('CAS', 'Collision Avoidance System (система предотвращения столкновений)'),
     ('АНС', 'автономная навигационная система'),
     ('ПИД', 'пропорционально-интегрально-дифференциальный'),
@@ -157,7 +158,7 @@ for paragraph in doc.paragraphs:
     started_body = True
     if paragraph.style.name == 'Heading 1':
         paragraph.paragraph_format.page_break_before = True
-        if paragraph.text in ('ВВЕДЕНИЕ', 'СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ'):
+        if paragraph.text in ('ВВЕДЕНИЕ', 'ЗАКЛЮЧЕНИЕ', 'СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ'):
             paragraph.style = structural
     label = paragraph.text
     if not re.match(r'^\d', label):

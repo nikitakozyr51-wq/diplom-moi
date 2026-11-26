@@ -258,5 +258,23 @@
     "path": "literature/raw/msc105-inf12.pdf",
     "bytes": 323961,
     "sha256": "cab66cd491e751083d3c334cb70ab16fd3c984700744758003ba06840e468b1d"
+  },
+  {
+    "source_id": "S033",
+    "path": "literature/raw/ust-luga-304.pdf",
+    "bytes": 1736102,
+    "sha256": "f1108a26e6da207b8c307baf64f0642b490780f20e57f5e8ade8eede25436b0b"
+  },
+  {
+    "source_id": "S033",
+    "path": "literature/raw/ust-luga-83.pdf",
+    "bytes": 85061,
+    "sha256": "6354b5a2f4a4eeda61cb2122690a2cbd8778c719064a270801ecd226e36ed1d5"
+  },
+  {
+    "source_id": "S034",
+    "path": "literature/raw/ust-luga-56.pdf",
+    "bytes": 2479613,
+    "sha256": "c22fb257705bcef53db0d69d8dc8d02936e2c3dfb991e9b8ff9b9a952aac4043"
   }
 ]
