@@ -1,13 +1,13 @@
 {
   "status": "passed",
   "renderer": "Microsoft Word",
-  "pages": 41,
+  "pages": 44,
   "contents_page": 2,
   "title_page_number_visible": false,
   "contents_page_count": 2,
   "planned_entries": 26,
-  "written_entries": 16,
-  "page_numbers": "2 through 41",
+  "written_entries": 17,
+  "page_numbers": "2 through 44",
   "contents": [
     {
       "heading": "ПЕРЕЧЕНЬ СОКРАЩЕНИЙ",
@@ -132,10 +132,10 @@
     {
       "heading": "3.2 Сопоставление российских и зарубежных решений и оценка качества обнаружения препятствий",
       "label": "3.2 Сопоставление российских и зарубежных решений и оценка качества обнаружения препятствий",
-      "bookmark": null,
+      "bookmark": "VKRSection15",
       "level": 2,
-      "written": false,
-      "page": null
+      "written": true,
+      "page": 37
     },
     {
       "heading": "3.3 Анализ обнаружения опасностей и принятия решений в типовых ситуациях плавания в узкостях",
@@ -204,10 +204,10 @@
     {
       "heading": "СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ",
       "label": "Список использованных источников",
-      "bookmark": "VKRSection15",
+      "bookmark": "VKRSection16",
       "level": 1,
       "written": true,
-      "page": 38
+      "page": 41
     },
     {
       "heading": "Приложения (при необходимости)",
@@ -296,11 +296,63 @@
         ]
       ],
       "all_cells_on_one_page": true
+    },
+    {
+      "headers": [
+        "Навигационная функция",
+        "Российский пример",
+        "Японский пример"
+      ],
+      "page": 38,
+      "coordinates": [
+        [
+          38,
+          90.74,
+          763.55
+        ],
+        [
+          38,
+          232.37,
+          763.55
+        ],
+        [
+          38,
+          388.15,
+          763.55
+        ]
+      ],
+      "all_cells_on_one_page": true
+    },
+    {
+      "headers": [
+        "Показатель испытания",
+        "Исходная WaSR",
+        "Облегчённая eWaSR"
+      ],
+      "page": 39,
+      "coordinates": [
+        [
+          39,
+          90.74,
+          594.47
+        ],
+        [
+          39,
+          232.49,
+          594.47
+        ],
+        [
+          39,
+          388.39,
+          594.47
+        ]
+      ],
+      "all_cells_on_one_page": true
     }
   ],
-  "font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimesNewRomanPSMT                    TrueType          WinAnsi          no  no  no       5  0\nTimesNewRomanPS-BoldMT               CID TrueType      Identity-H       yes no  yes      9  0\nTimesNewRomanPS-BoldMT               TrueType          WinAnsi          no  no  no      14  0\nTimesNewRomanPSMT                    CID TrueType      Identity-H       yes no  yes     16  0\nArialMT                              TrueType          WinAnsi          no  no  no     105  0\nBCDEEE+Calibri-Light                 TrueType          WinAnsi          yes yes no     109  0",
-  "word_sha256": "ab0e1393fac77774de29608bddf9fc9cc8a0a354421727cbaf01ea71b5cab52c",
-  "pdf_sha256": "0ff9aff64177cc02375661eb217bf266c7552ccd491b1a5f2a6a2d13bc24c661",
+  "font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimesNewRomanPSMT                    TrueType          WinAnsi          no  no  no       5  0\nTimesNewRomanPS-BoldMT               CID TrueType      Identity-H       yes no  yes      9  0\nTimesNewRomanPS-BoldMT               TrueType          WinAnsi          no  no  no      14  0\nTimesNewRomanPSMT                    CID TrueType      Identity-H       yes no  yes     16  0\nArialMT                              TrueType          WinAnsi          no  no  no     111  0\nBCDEEE+Calibri-Light                 TrueType          WinAnsi          yes yes no     115  0",
+  "word_sha256": "e0b31f4041caefa11a9848420eb5bd7f8ad418336d3fc183cf08e4b8dc440c13",
+  "pdf_sha256": "0a2e347f4a6ac6c08e3e2468fb7e14a6d6ae5d4fe1b364d67726e5993c6a0ea3",
   "original_title_template_sha256": "a6a7fc9e6e978490845db7a4dc077ed6fe29679318e59c2abc0b980e8907944b",
   "limits": "Pagination verified in the named renderer. Word may repaginate when edited or opened with different fonts."
 }
