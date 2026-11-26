@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "body_words": 8199,
+  "body_words": 9000,
   "subsections": [
     "1.1",
     "1.2",
@@ -12,11 +12,12 @@
     "2.3",
     "2.4",
     "3.1",
-    "3.2"
+    "3.2",
+    "3.3"
   ],
   "references": 30,
   "sources": 32,
-  "evidence_entries": 77,
+  "evidence_entries": 79,
   "tables": 5,
   "pdf_preflights": 11,
   "local_source_hashes_checked": 28,
@@ -39,11 +40,11 @@
     "literature/raw/imo-russian-about.txt",
     "literature/raw/pvs-commit.json"
   ],
-  "rendered_pages": 44,
+  "rendered_pages": 47,
   "contents_page": 2,
   "artifact_hashes": {
-    "drafts/working-draft.md": "88abccfbd74aebc5c167d788eabc8fc57ebae0bebfc7f5476ae34ffcded81222",
-    "drafts/working-draft.docx": "e0b31f4041caefa11a9848420eb5bd7f8ad418336d3fc183cf08e4b8dc440c13",
+    "drafts/working-draft.md": "e05f38001369498acf2822403d6c9614900f28aa9cbff2df1e5ebd953b1b830e",
+    "drafts/working-draft.docx": "c40a4e7876256ba3966bcad057c4ce0ea30829e2d80a8b86ad1e9242e2b66abc",
     "plan.md": "5dd3157582c62714c6adda9d705fd3ad040780810adc87233d53af49f9029e4c",
     "plan.docx": "cbd303a600d262ae2291333ca5267c74ed3151da4215e02005ec499f474b97e8"
   },
