@@ -1,13 +1,13 @@
 {
   "status": "passed",
   "renderer": "Microsoft Word",
-  "pages": 50,
+  "pages": 53,
   "contents_page": 2,
   "title_page_number_visible": false,
   "contents_page_count": 2,
   "planned_entries": 26,
-  "written_entries": 19,
-  "page_numbers": "2 through 50",
+  "written_entries": 21,
+  "page_numbers": "2 through 53",
   "contents": [
     {
       "heading": "ПЕРЕЧЕНЬ СОКРАЩЕНИЙ",
@@ -154,20 +154,20 @@
       "page": 43
     },
     {
-      "heading": "4 Перспективы внедрения автономного судовождения на морском флоте",
+      "heading": "4 ПЕРСПЕКТИВЫ ВНЕДРЕНИЯ АВТОНОМНОГО СУДОВОЖДЕНИЯ НА МОРСКОМ ФЛОТЕ",
       "label": "4 Перспективы внедрения автономного судовождения на морском флоте",
-      "bookmark": null,
+      "bookmark": "VKRSection18",
       "level": 1,
-      "written": false,
-      "page": null
+      "written": true,
+      "page": 47
     },
     {
       "heading": "4.1 Условия применения технологий автономного судовождения на морском флоте",
       "label": "4.1 Условия применения технологий автономного судовождения на морском флоте",
-      "bookmark": null,
+      "bookmark": "VKRSection19",
       "level": 2,
-      "written": false,
-      "page": null
+      "written": true,
+      "page": 47
     },
     {
       "heading": "4.2 Перспективы перехода от традиционного к автономному судовождению и изменение роли экипажа",
@@ -204,10 +204,10 @@
     {
       "heading": "СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ",
       "label": "Список использованных источников",
-      "bookmark": "VKRSection18",
+      "bookmark": "VKRSection20",
       "level": 1,
       "written": true,
-      "page": 47
+      "page": 50
     },
     {
       "heading": "Приложения (при необходимости)",
@@ -350,9 +350,9 @@
       "all_cells_on_one_page": true
     }
   ],
-  "font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimesNewRomanPSMT                    TrueType          WinAnsi          no  no  no       5  0\nTimesNewRomanPS-BoldMT               CID TrueType      Identity-H       yes no  yes      9  0\nTimesNewRomanPS-BoldMT               TrueType          WinAnsi          no  no  no      14  0\nTimesNewRomanPSMT                    CID TrueType      Identity-H       yes no  yes     16  0\nArialMT                              TrueType          WinAnsi          no  no  no     123  0\nBCDEEE+Calibri-Light                 TrueType          WinAnsi          yes yes no     127  0",
-  "word_sha256": "44950be25ec7b4b751501af479e9c6fd30634750dd2f1631ea51609614f35f0c",
-  "pdf_sha256": "6ebeaa3cf61fc6571b0ba68027c34debac8b4f55cd1536cc1cc8b86073a05702",
+  "font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimesNewRomanPSMT                    TrueType          WinAnsi          no  no  no       5  0\nTimesNewRomanPS-BoldMT               CID TrueType      Identity-H       yes no  yes      9  0\nTimesNewRomanPS-BoldMT               TrueType          WinAnsi          no  no  no      14  0\nTimesNewRomanPSMT                    CID TrueType      Identity-H       yes no  yes     16  0\nArialMT                              TrueType          WinAnsi          no  no  no     131  0\nBCDEEE+Calibri-Light                 TrueType          WinAnsi          yes yes no     135  0",
+  "word_sha256": "b32bf64d2f3841560eb6415226092c06ce16e33358abef984e7fcc29ec9417ed",
+  "pdf_sha256": "2c59c8171460f6165d3375667f6dec4e416728415cc36e1fd9fb42abefb5608f",
   "original_title_template_sha256": "a6a7fc9e6e978490845db7a4dc077ed6fe29679318e59c2abc0b980e8907944b",
   "limits": "Pagination verified in the named renderer. Word may repaginate when edited or opened with different fonts."
 }
