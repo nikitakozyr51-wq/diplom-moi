@@ -1,13 +1,13 @@
 {
   "status": "passed",
   "renderer": "Microsoft Word",
-  "pages": 47,
+  "pages": 50,
   "contents_page": 2,
   "title_page_number_visible": false,
   "contents_page_count": 2,
   "planned_entries": 26,
-  "written_entries": 18,
-  "page_numbers": "2 through 47",
+  "written_entries": 19,
+  "page_numbers": "2 through 50",
   "contents": [
     {
       "heading": "ПЕРЕЧЕНЬ СОКРАЩЕНИЙ",
@@ -148,10 +148,10 @@
     {
       "heading": "3.4 Ограничения автономного управления и условия вмешательства человека",
       "label": "3.4 Ограничения автономного управления и условия вмешательства человека",
-      "bookmark": null,
+      "bookmark": "VKRSection17",
       "level": 2,
-      "written": false,
-      "page": null
+      "written": true,
+      "page": 43
     },
     {
       "heading": "4 Перспективы внедрения автономного судовождения на морском флоте",
@@ -204,10 +204,10 @@
     {
       "heading": "СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ",
       "label": "Список использованных источников",
-      "bookmark": "VKRSection17",
+      "bookmark": "VKRSection18",
       "level": 1,
       "written": true,
-      "page": 44
+      "page": 47
     },
     {
       "heading": "Приложения (при необходимости)",
@@ -350,9 +350,9 @@
       "all_cells_on_one_page": true
     }
   ],
-  "font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimesNewRomanPSMT                    TrueType          WinAnsi          no  no  no       5  0\nTimesNewRomanPS-BoldMT               CID TrueType      Identity-H       yes no  yes      9  0\nTimesNewRomanPS-BoldMT               TrueType          WinAnsi          no  no  no      14  0\nTimesNewRomanPSMT                    CID TrueType      Identity-H       yes no  yes     16  0\nArialMT                              TrueType          WinAnsi          no  no  no     117  0\nBCDEEE+Calibri-Light                 TrueType          WinAnsi          yes yes no     121  0",
-  "word_sha256": "c40a4e7876256ba3966bcad057c4ce0ea30829e2d80a8b86ad1e9242e2b66abc",
-  "pdf_sha256": "03646bbe95ac0fdede6394c188a2c59201155e024fdab69de631e1919c40c9e9",
+  "font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimesNewRomanPSMT                    TrueType          WinAnsi          no  no  no       5  0\nTimesNewRomanPS-BoldMT               CID TrueType      Identity-H       yes no  yes      9  0\nTimesNewRomanPS-BoldMT               TrueType          WinAnsi          no  no  no      14  0\nTimesNewRomanPSMT                    CID TrueType      Identity-H       yes no  yes     16  0\nArialMT                              TrueType          WinAnsi          no  no  no     123  0\nBCDEEE+Calibri-Light                 TrueType          WinAnsi          yes yes no     127  0",
+  "word_sha256": "44950be25ec7b4b751501af479e9c6fd30634750dd2f1631ea51609614f35f0c",
+  "pdf_sha256": "6ebeaa3cf61fc6571b0ba68027c34debac8b4f55cd1536cc1cc8b86073a05702",
   "original_title_template_sha256": "a6a7fc9e6e978490845db7a4dc077ed6fe29679318e59c2abc0b980e8907944b",
   "limits": "Pagination verified in the named renderer. Word may repaginate when edited or opened with different fonts."
 }
