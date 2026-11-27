@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "body_words": 13371,
+  "body_words": 13395,
   "subsections": [
     "1.1",
     "1.2",
@@ -48,8 +48,8 @@
   "rendered_pages": 65,
   "contents_page": 2,
   "artifact_hashes": {
-    "drafts/working-draft.md": "4f56a7614c179d76521c6ac29c280fe52cac5b60af4c86316a4b260a23f5843c",
-    "drafts/working-draft.docx": "3094eb90bcfef0e2a48bf0a903ee7052a8da2301a51c6943ae83c8ef8c418d72",
+    "drafts/working-draft.md": "456af006c1352fd1ecac2d55e2e8007b4de525c9dea71ec5964d44fb50547e05",
+    "drafts/working-draft.docx": "d243df3c02072bb25528efc41fffae0557da75807bfe369b13f1791df98adcad",
     "plan.md": "5dd3157582c62714c6adda9d705fd3ad040780810adc87233d53af49f9029e4c",
     "plan.docx": "cbd303a600d262ae2291333ca5267c74ed3151da4215e02005ec499f474b97e8"
   },
