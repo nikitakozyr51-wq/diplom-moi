@@ -343,8 +343,8 @@
     }
   ],
   "font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimesNewRomanPSMT                    TrueType          WinAnsi          no  no  no       5  0\nTimesNewRomanPS-BoldMT               CID TrueType      Identity-H       yes no  yes      9  0\nTimesNewRomanPS-BoldMT               TrueType          WinAnsi          no  no  no      14  0\nTimesNewRomanPSMT                    CID TrueType      Identity-H       yes no  yes     16  0\nArialMT                              TrueType          WinAnsi          no  no  no     152  0\nBCDEEE+Calibri-Light                 TrueType          WinAnsi          yes yes no     156  0",
-  "word_sha256": "6178fa0b10631a0b2a831bcb9c33d094a428546812c3d8f4e45d2fd7e04d3fd3",
-  "pdf_sha256": "e0550c243a18a9f72e855ee8a27073522074091b023114852efd93929589a2ac",
+  "word_sha256": "3094eb90bcfef0e2a48bf0a903ee7052a8da2301a51c6943ae83c8ef8c418d72",
+  "pdf_sha256": "b55a04bc9ad64c4a413f2eae38c253b72f1eb06c9d1dee3dc340eafb123019d2",
   "original_title_template_sha256": "a6a7fc9e6e978490845db7a4dc077ed6fe29679318e59c2abc0b980e8907944b",
   "limits": "Pagination verified in the named renderer. Word may repaginate when edited or opened with different fonts."
 }
